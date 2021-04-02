@@ -8,6 +8,7 @@ p {
 }
 body {
   margin: 0;
+  border: dashed 1px orange;
 }
 
 .wrapper {
