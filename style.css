@@ -4,4 +4,38 @@ p {
 
 .title {
   font-family: "Roboto", sans-serif;
+
+}
+body {
+  margin: 0;
+  border: dasher 1px orange;
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dasher 1px orange;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 40px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px orange;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
 }
