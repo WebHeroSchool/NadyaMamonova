@@ -19,7 +19,7 @@ body {
 
 .logo {
   padding: 0 40px;
-  font: bold 24px/31px 'PT_serif', arial, sans-serif;
+  font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
   height: 35px;
   background: url('img/logo.svg')no-repeat;
 }
