@@ -22,10 +22,8 @@ body {
 }
 
 .logo {
-  padding: 0 0 40px;
-  padding-left: 196px;
+  padding: 0 40px;
   font: bold 24px/31px pt_serif, arial, sans-serif;
-  widht: 190px;
   height: 35px;
   background: url('img/logo.svg')no-repeat;
 }
