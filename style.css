@@ -2,10 +2,6 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-.title {
-  font-family: "Roboto", sans-serif;
-
-}
 body {
   margin: 0;
 }
@@ -23,7 +19,7 @@ body {
 
 .logo {
   padding: 0 40px;
-  font: bold 24px/31px pt_serif, arial, sans-serif;
+  font: bold 24px/31px 'PT_serif', arial, sans-serif;
   height: 35px;
   background: url('img/logo.svg')no-repeat;
 }
