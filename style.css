@@ -27,7 +27,6 @@ body {
   widht: 190px;
   height: 35px;
   background: url('img/logo.svg')no-repeat;
-  padding-left: url('img/logo.svg') 40px 5;
 }
 
 .menu {
