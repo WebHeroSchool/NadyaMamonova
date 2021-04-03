@@ -8,13 +8,11 @@ p {
 }
 body {
   margin: 0;
-  border: dashed 1px orange;
 }
 
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px orange;
 }
 
 .header {
@@ -24,6 +22,8 @@ body {
 }
 
 .logo {
+  padding: 40px 0;
+  font: bold 24px/31px pt_serif, arial, sans-serif;
   widht: 190px;
   height: 35px;
   background: url('img/logo.svg')no-repeat;
