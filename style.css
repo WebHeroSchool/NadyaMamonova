@@ -39,14 +39,14 @@ body {
 }
 
 .menu__item:last-child {
-  margin-right: auto;
+  margin-right: 0;
 }
 
 .menu__item:after {
   position: absolute;
   display: block;
   content: '';
-  left: auto;
+  left: 0;
   width: 68px;
   height: 3px;
   background: #0056EC;
