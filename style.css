@@ -44,14 +44,14 @@ body {
 
 .menu__item:after {
   position: absolute;
+  left: 0;
   display: block;
   content: '';
-  left: 0;
-  width: 68px;
+  width: 0;
   height: 3px;
   background: #0056EC;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity .5s, widht .5s;
 }
 
 .menu__item:hover {
