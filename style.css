@@ -63,3 +63,8 @@ body {
   opacity: 1;
   width: 100%;
 }
+
+.menu__item_active::after {
+  opacity: 1;
+  width: 100%;
+}
