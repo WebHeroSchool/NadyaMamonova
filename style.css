@@ -40,6 +40,7 @@ body {
 
 .menu__item:last-child {
   margin-right: 0;
+  white-space: nowrap;
 }
 
 .menu__item:after {
