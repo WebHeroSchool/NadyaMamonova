@@ -88,11 +88,10 @@ body {
 
 .main-content_button {
   font:  18px/21px 'Roboto', arial, helvetica, sans-serif;
-  padding-top: 40px;
 }
 
 .main {
   padding-top: 100%;
   padding-right: 63%;
-  background: url(img/main.svg)
+  background: url('img/main.svg')
 }
