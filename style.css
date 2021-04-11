@@ -71,8 +71,9 @@ body {
 
 .main-content {
   padding-top: 206px;
-  widht: 50%;
+  width: : 50%;
 }
+
 .main-content__title {
   margin: 0 0 40px 0;
   width: 567px;
@@ -81,8 +82,8 @@ body {
 
 .main-content__subtitle {
   margin: 0 0 41px 0;
-  widht: 455px;
-  font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
+  width: 455px;
+  font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
 }
 
 .main-content_button {
