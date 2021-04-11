@@ -88,3 +88,10 @@ body {
 
 .main-content_button {
   font:  18px/21px 'Roboto', arial, helvetica, sans-serif;
+  padding-top: 25px;
+}
+
+.main {
+  background: url(img/mainlmg.svg)
+  background-position: center right;
+}
