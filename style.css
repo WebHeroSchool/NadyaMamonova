@@ -88,10 +88,16 @@ body {
 
 .main-content_button {
   font:  18px/21px 'Roboto', arial, helvetica, sans-serif;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
 }
 
-.image-content__image {
+.main-section {
   background: url(img/mainlmg.svg)
   width: 770px;
   height: 657px;
+  padding-right: 60%;
 }
