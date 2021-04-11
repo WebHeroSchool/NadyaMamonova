@@ -92,6 +92,6 @@ body {
 }
 
 .main {
-  background: url(img/mainlmg.svg)
+  background: url('img/mainlmg.svg')
   background-position: center right;
 }
