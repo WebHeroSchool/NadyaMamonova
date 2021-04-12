@@ -4,6 +4,9 @@ p {
 
 body {
   margin: 0;
+  background: url('img/detail.svg');
+  position: center;
+  padding-bottom: 0;
 }
 
 .wrapper {
@@ -78,6 +81,7 @@ body {
   margin: 0 0 40px 0;
   width: 567px;
   font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
+  line-height: 110px;
 }
 
 .main-content__subtitle {
