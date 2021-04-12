@@ -100,5 +100,6 @@ body {
 .main-section {
   background: url(img/mainlmg.svg) no-repeat;
   padding-top: 100%;
-  padding-right: 60%
+  padding-right: 63%
+  background-pozition: center-right;
 }
