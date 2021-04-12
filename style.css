@@ -101,5 +101,5 @@ body {
   background: url(img/mainlmg.svg) no-repeat;
   background-position: right;
   padding: 206px 0;
-  margin-left: 0;
+  margin: auto;
 }
