@@ -15,6 +15,7 @@ body {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -70,7 +71,7 @@ body {
 }
 
 .main-content {
-  padding-top: 206px;
+
   width: : 50%;
 }
 
@@ -99,4 +100,7 @@ body {
 
 .main-section {
   background: url(img/mainlmg.svg) no-repeat;
+  background-position: right;
+  margin: 0;
+  padding: 206px 0;
 }
