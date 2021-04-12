@@ -71,7 +71,6 @@ body {
 }
 
 .main-content {
-
   width: : 50%;
 }
 
@@ -101,6 +100,6 @@ body {
 .main-section {
   background: url(img/mainlmg.svg) no-repeat;
   background-position: right;
-  margin: 0;
   padding: 206px 0;
+  margin-left: 0;
 }
