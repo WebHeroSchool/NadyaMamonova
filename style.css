@@ -124,7 +124,7 @@ body {
   opacity: .5;
 }
 
-.image-content__image {
+.image-content {
   background: url('img/detail.svg');
   position: center;
   padding-bottom: 0;
