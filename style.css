@@ -114,7 +114,7 @@ body {
   font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #FFFFFF;
   background: #0056EC;
-  padding: 18px 21px;
+  padding: 17px 25px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
@@ -125,7 +125,9 @@ body {
 }
 
 .image-content {
-  background: url('img/detail.svg')no-repeat;
-  position: center;
-  padding: 0;
+  background: url('img/detail.svg') center no-repeat;
+  position: absolute;
+  width: 32px;
+  left: 944px;
+  top: 1032px;
 }
