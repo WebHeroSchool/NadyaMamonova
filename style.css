@@ -125,7 +125,7 @@ body {
 }
 
 .image-content {
-  background: url('img/detail.svg');
+  background: url('img/detail.svg')no-repeat;
   position: center;
-  padding-bottom: 0;
+  padding: 0;
 }
