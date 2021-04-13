@@ -75,15 +75,14 @@ body {
 }
 
 .main-content__title {
-  margin: -10px;
+  margin: -60px -1px -1px -1px;
   width: 567px;
   font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
   line-height: 80px;
-  padding-bottom: 4px;
 }
 
 .main-content__subtitle {
-  margin: 0 0 41px 0;
+  margin: 45px 0 41px 0;
   width: 455px;
   font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
   position: sticky;
