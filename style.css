@@ -73,10 +73,16 @@ body {
 }
 
 .main-content__title {
-  margin: -91px -1px -1px -1px;
   width: 567px;
-  font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
-  line-height: 97px;
+  height: 255px;
+  font-family: 'pt_serifbold', arial, helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+  padding-bottom: 0;
+  margin-left: -3px;
+  margin-bottom: 43px;
 }
 
 .main-content__subtitle {
@@ -84,6 +90,7 @@ body {
   font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
   position: sticky;
   top: 10px;
+  margin: 12px 4px;
 }
 
 .main-content_button {
@@ -106,18 +113,18 @@ body {
 
 .main__title-text_highlight {
   background: #ECF3FF;
-  padding: 10px 10px 30px 0;
 }
 
 .main__button {
   display: inline-block;
-  font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+  font: 18px/18px 'Roboto', arial, helvetica, sans-serif;
   color: #FFFFFF;
   background: #0056EC;
-  padding: 17px 26px;
+  padding: 22px 31px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
+  margin: 20px 0 0 -1px;
 }
 
 .main__button:hover {
