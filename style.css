@@ -15,7 +15,7 @@ body {
 }
 
 .logo {
-  padding: 0 20px 10px 51px;
+  padding: 0 20px 10px 48px;
   font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
   height: 35px;
   background: url('img/logo.svg')no-repeat;
@@ -24,7 +24,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  padding: 4px 0 10px 0;
+  padding: 4px 15px 10px 0;
   margin: 0 -5px;
 }
 
@@ -73,14 +73,14 @@ body {
 }
 
 .main-content__title {
-  margin: -60px -1px -1px -1px;
+  margin: -91px -1px -1px -1px;
   width: 567px;
   font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
-  line-height: 100px;
+  line-height: 97px;
 }
 
 .main-content__subtitle {
-  margin: 45px 0 41px 0;
+  margin: 9px 0 41px 0;
   width: 455px;
   font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
   position: sticky;
@@ -88,7 +88,7 @@ body {
 }
 
 .main-content_button {
-  font:  18px/21px 'Roboto', arial, helvetica, sans-serif;
+  font:  19px/21px 'Roboto', arial, helvetica, sans-serif;
   border: none;
   padding: 15px 32px;
   text-align: center;
@@ -96,6 +96,7 @@ body {
   margin: 4px 2px;
   display: inline-block;
   font-size: 16px;
+  margin: 15px 0;
 }
 
 .main-section {
@@ -107,6 +108,7 @@ body {
 
 .main__title-text_highlight {
   background: #ECF3FF;
+  padding: 10px 10px 30px 0;
 }
 
 .main__button {
