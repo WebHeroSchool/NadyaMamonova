@@ -130,17 +130,18 @@ body {
   top: 1028px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .menu {
     display: none;
+  }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .header {
     margin-bottom: 28px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .main {
   text-align: center;
   padding: 74% 0 0;
@@ -148,19 +149,19 @@ body {
   background-position: top center;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .main__title {
   margin-bottom: 44px;
   font: bold 30px/39px 'pt_serifbold', arial, helvetica, sans-serif;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .main__subtitle {
   margin-bottom: 25px;
   font: 500 16/19 'Roboto', arial, helvetica, sans-serif;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 .main__button {
   font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
 }
