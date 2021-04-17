@@ -139,19 +139,19 @@ body {
     margin-bottom: 28px;
   }
 
-  .main {
+  .main-section {
     text-align: center;
     padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
   }
 
-  .main__title {
+  .main-content__title {
     margin-bottom: 44px;
     font: bold 30px/39px 'pt_serifbold', arial, helvetica, sans-serif;
   }
 
-  .main__subtitle {
+  .main-content__subtitle {
     margin-bottom: 25px;
     font: 500 16/19 'Roboto', arial, helvetica, sans-serif;
   }
