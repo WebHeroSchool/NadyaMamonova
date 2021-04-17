@@ -169,9 +169,8 @@ body {
   }
 
   .main-content__subtitle {
-    margin-bottom: 5px;
     font: 550 25px/26px 'Roboto', arial, helvetica, sans-serif;
-    margin-top: -50px;
+    margin-top: -90px;
     margin-left: 60px;
     text-align: center;
   }
@@ -198,12 +197,11 @@ body {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 20px;
-  left: 700px;
-  width: 26px;
-  height: 26px;
+  width: 35px;
+  height: 30px;
   cursor: pointer;
   z-index: 1;
+  margin: -40px -50px 10px 550px;
   }
 
 .menu__btn > span,
@@ -275,4 +273,52 @@ body {
   left: 175px;
   transform: translateX(100%);
   }
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    display: block;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .main-section {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 84%;
+    background-position: top center;
+    margin-top: -85px;
+  }
+
+  .main-content__title {
+    margin-bottom: 44px;
+    font: bold 50px/59px 'pt_serifbold', arial, helvetica, sans-serif;
+    margin-top: 0;
+  }
+
+  .main-content__subtitle {
+    font: 550 25px/26px 'Roboto', arial, helvetica, sans-serif;
+    margin-top: -90px;
+    margin-left: 60px;
+    text-align: center;
+  }
+
+  .main__button {
+    font: 500 22px/24px 'Roboto', arial, helvetica, sans-serif;
+    margin-right: 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logoimg {
+    background-size: 70%;
+    padding: 20px 35px 50px;
 }
