@@ -150,6 +150,10 @@ body {
     margin-bottom: 28px;
   }
 
+  .hamburger-menu {
+    display: block;
+  }
+
   .main-section {
     text-align: center;
     padding: 74% 0 0;
