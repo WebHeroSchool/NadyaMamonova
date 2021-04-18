@@ -282,45 +282,69 @@ body {
   }
 
   .header {
-    margin-bottom: 28px;
+    display: flex;
+    width: 90%
+    justify-content: space-between;
+    padding: 40px 1px 20px 40px;
+    margin-bottom: 190px;
+  }
+
+  .logo {
+    font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
+    height: 35px;
+    margin-left: -50px;
+  }
+
+  .logoimg {
+    padding: 10px 0 0 625px;
+    margin: 0 -103px 10px -300px;
   }
 
   .hamburger-menu {
     display: none;
   }
 
+  .menu {
+    padding-right: 6px;
+  }
+
+  .menu__item {
+    font-size: 14px;
+    margin-right: 26px;
+}
+.menu__item, .menu__item_active {
+  margin-right: 26px;
+}
+
   .main-section {
-    text-align: center;
-    padding: 74% 0 0;
-    background-size: 84%;
-    background-position: top center;
-    margin-top: -85px;
+    margin-right: -65px;
+    background-size: 60%;
+    padding-bottom: 60px;
+    background-position: top right;
   }
 
   .main-content__title {
-    margin-bottom: 44px;
-    font: bold 50px/59px 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: 0;
+    width: 567px;
+    font-family: 'pt_serifbold', arial, helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: -83px;
+    margin-left: -60px;
   }
 
   .main-content__subtitle {
-    font: 550 25px/26px 'Roboto', arial, helvetica, sans-serif;
-    margin-top: -90px;
-    margin-left: 60px;
-    text-align: center;
+    width: 367px;
+    font: normal 19px/21px 'Roboto', arial, helvetica, sans-serif;
+    position: sticky;
+    margin: 0 0 40px -60px;
   }
 
   .main__button {
-    font: 500 22px/24px 'Roboto', arial, helvetica, sans-serif;
-    margin-right: 10px;
-  }
-
-  .logo {
-    display: none;
-  }
-
-  .logoimg {
-    background-size: 70%;
-    padding: 20px 35px 50px;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    padding: 10px 30px 16px 15px;
+    margin-left: -60px;
+    left: 496px;
+    top: 718px;
   }
 }
