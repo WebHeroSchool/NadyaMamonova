@@ -311,10 +311,11 @@ body {
   .menu__item {
     font-size: 14px;
     margin-right: 26px;
-}
-.menu__item, .menu__item_active {
+  }
+
+  .menu__item, .menu__item_active {
   margin-right: 26px;
-}
+  }
 
   .main-section {
     margin-right: -65px;
