@@ -76,7 +76,7 @@ body {
 }
 
 .main-content {
-  width: : 50%;
+  width: 50%;
 }
 
 .main-content__title {
@@ -148,7 +148,7 @@ body {
 
   .header {
     display: flex;
-    width: 90%
+    width: 90%;
     justify-content: space-between;
     padding: 40px 1px 20px 40px;
     margin-bottom: 190px;
@@ -262,7 +262,6 @@ body {
     background-size: 70%;
     padding: 20px 35px 50px;
   }
-}
 
   #menu__toggle {
   opacity: 0;
@@ -316,7 +315,7 @@ body {
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   transition-duration: .25s;
-}
+  }
 
 .menu__item {
   display: block;
