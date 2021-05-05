@@ -355,6 +355,5 @@ body {
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 175px;
-  transform: translateX(100%);
   }
 }
