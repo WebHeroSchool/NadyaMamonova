@@ -253,6 +253,8 @@ body {
   .main-content__subtitle {
     font: 550 25px/26px 'Roboto', arial, helvetica, sans-serif;
     margin-right: 10px;
+    margin-top: -90px;
+    margin-left: 60px;
   }
 
   .main__button {
