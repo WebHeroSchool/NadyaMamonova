@@ -247,18 +247,19 @@ body {
     margin-bottom: 44px;
     font: bold 50px/59px 'pt_serifbold', arial, helvetica, sans-serif;
     margin-top: 0;
+    margin-left: -50px;
   }
 
   .main-content__subtitle {
     font: 550 25px/26px 'Roboto', arial, helvetica, sans-serif;
-    margin-top: -90px;
-    margin-left: 60px;
-    text-align: center;
+    margin-right: 10px;
   }
 
   .main__button {
     font: 500 22px/24px 'Roboto', arial, helvetica, sans-serif;
-    margin-right: 10px;
+    margin-right: -70px;
+    margin-left: 80px;
+    margin-top: -10px;
   }
 
   .logo {
