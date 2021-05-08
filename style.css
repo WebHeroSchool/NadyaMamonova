@@ -171,8 +171,7 @@ body {
   .menu {
     display: flex;
     align-items: center;
-    padding: 4px 15px 10px 600px;
-    margin: 2px 400px 0 500px;
+    margin-left: -150px;
   }
 
   .menu__item {
