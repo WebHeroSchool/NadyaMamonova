@@ -221,7 +221,7 @@ body {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
     margin-top: -165px;
-    margin-right: -245px;
+    margin-right: 245px;
     background-size: 514px;
   }
 
@@ -331,7 +331,7 @@ body {
   .main-content__title {
     width: 520px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: -70px;
+    margin-top: -75px;
     margin-left: -50px;
     font-size: 50px;
   }
@@ -342,13 +342,13 @@ body {
     position: sticky;
     margin-left: -50px;
     margin-bottom: -90px;
-    margin-top: -59px;
+    margin-top: -60px;
   }
 
   .main-section {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
-    margin-top: -135px;
+    margin-top: -145px;
     margin-right: -60px;
     background-size: 514px;
   }
@@ -361,14 +361,14 @@ body {
 
   .main__button {
     display: inline-block;
-    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 12px/16px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
     background: #0056EC;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
     height: 17px;
-    margin-top: 95px;
+    margin-top: 120px;
     margin-left: -50px;
     line-height: 1px;
   }
