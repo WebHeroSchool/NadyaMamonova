@@ -267,8 +267,8 @@ body {
   .logo {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     margin-left: -55px;
-
   }
+
   .logoimg {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     height: 35px;
@@ -439,8 +439,8 @@ body {
   }
 
   .logoimg {
-    background-size: 70%;
-    padding: 20px 35px 50px;
+    background-size: 45px;
+    margin-left: -250px;
   }
 
   #menu__toggle {
