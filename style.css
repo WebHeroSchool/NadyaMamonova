@@ -441,8 +441,9 @@ body {
   }
 
   .logoimg {
-    background-size: 60px;
-    margin-left: -250px;
+    margin-left: -245px;
+    width: 36px;
+    margin-top: -15px;
   }
 
   #menu__toggle {
