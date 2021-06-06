@@ -206,7 +206,6 @@ body {
     width: 520px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
     margin-top: -60px;
-    margin-left: -84px;
     font-size: 50px;
   }
 
@@ -214,7 +213,6 @@ body {
     width: 367px;
     font: normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
-    margin-left: -85px;
     margin-bottom: -90px;
     margin-top: -59px;
   }
@@ -223,7 +221,7 @@ body {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
     margin-top: -165px;
-    margin-right: 245px;
+    margin-right: 2px;
     background-size: 514px;
   }
 
@@ -243,7 +241,6 @@ body {
     transition: opacity .5s;
     height: 17px;
     margin-top: 130px;
-    margin-left: -85px;
     line-height: 1px;
     width: 209px;
   }
@@ -256,7 +253,7 @@ body {
     background: url('img/detail.svg') center no-repeat;
     position: absolute;
     width: 32px;
-    left: 505px;
+    left: 665px;
     top: 720px;
   }
 
