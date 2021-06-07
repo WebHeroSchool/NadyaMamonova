@@ -408,6 +408,10 @@ body {
     margin-right: 10px;
   }
 
+  #menu__toggle {
+    opacity: 0;
+  }
+
   .menu__btn {
     display: flex;
     align-items: center;
