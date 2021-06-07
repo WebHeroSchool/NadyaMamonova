@@ -383,6 +383,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
   .menu {
     display: none;
   }
