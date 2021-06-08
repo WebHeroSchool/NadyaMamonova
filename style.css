@@ -387,7 +387,7 @@ body {
     display: none;
   }
 
-    .logoimg {
+  .logoimg {
       font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
       height: 35px;
       margin-left: -410px;
@@ -405,6 +405,25 @@ body {
 
   .hamburger-menu {
     display: block;
+    margin-left: -50px;
+    margin-top: 10px;
+  }
+
+  .main-content__title {
+    width: 267px;
+    font-family: 'pt_serifbold', arial, helvetica, sans-serif;
+    margin-top: -75px;
+    margin-left: -110px;
+    font-size: 30px;
+  }
+
+  .main-content__subtitle {
+    width: 275px;
+    font: normal 16px/18px 'Roboto', arial, helvetica, sans-serif;
+    position: sticky;
+    margin-left: -110px;
+    margin-bottom: -90px;
+    margin-top: -65px;
   }
 
   .main-section {
@@ -413,6 +432,30 @@ body {
     background-position: top center;
     margin-top: -5px;
     margin-right: 10px;
+  }
+
+  .main__title-text_highlight {
+    background: #ECF3FF;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
+    margin-right: -15px;
+  }
+
+  .main__button {
+    display: inline-block;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    color: #FFFFFF;
+    background: #0056EC;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: opacity .5s;
+    height: 17px;
+    margin-top: 132px;
+    margin-left: -112px;
+    line-height: 1px;
+  }
+
+  .main__button:hover {
+    opacity: .5;
   }
 
   #menu__toggle {
@@ -484,7 +527,8 @@ body {
   .menu__item:hover {
     background-color: #CFD8DC;
     }
-    #menu__toggle:checked ~ .menu__btn > span {
+
+  #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
     }
   #menu__toggle:checked ~ .menu__btn > span::before {
