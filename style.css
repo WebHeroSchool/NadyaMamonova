@@ -664,6 +664,7 @@
   margin-right: 26px;
   margin-top: 50px;
   margin-left: 80px;
+  position: relative;
   }
 
   .menu__item:last-child {
