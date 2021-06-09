@@ -1,4 +1,4 @@
-body {
+.body {
   margin: 0;
 }
 
@@ -412,7 +412,7 @@ body {
   .main-content__title {
     width: 267px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: -180px;
+    margin-top: 100px;
     margin-left: 130px;
     font-size: 30px;
   }
@@ -430,7 +430,7 @@ body {
     text-align: center;
     background-size: 350px;
     background-position: top center;
-    margin-top: -5px;
+    margin-top: -40px;
     margin-right: 10px;
   }
 
@@ -517,7 +517,7 @@ body {
   display: block;
   padding: 12px 24px;
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font: bold 30px/35px 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
