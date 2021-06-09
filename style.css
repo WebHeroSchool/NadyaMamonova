@@ -470,7 +470,7 @@
     height: 50px;
     cursor: pointer;
     z-index: 1;
-    margin: -20px -50px 10px 450px;
+    margin: -50px -50px 10px 450px;
   }
 
   .menu__btn > span,
@@ -515,17 +515,21 @@
 
   .menu__item {
   display: block;
-  padding: 20px 30px;
   color: #333;
   font: bold 30px/35px 'Roboto', sans-serif;
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
+  margin-right: 26px;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
   }
 
   .menu__item:hover {
     background-color: #CFD8DC;
-    }
+  }
 
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
