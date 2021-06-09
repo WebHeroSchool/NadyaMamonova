@@ -667,6 +667,12 @@
   position: relative;
   }
 
+  .menu__item_active::after {
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+
   .menu__item:last-child {
     margin-right: 0;
   }
