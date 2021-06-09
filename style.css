@@ -264,8 +264,9 @@
   border-radius: 4px;
   transition: opacity .5s;
   margin-left: -5px;
+}
 
-.main__button:hover {
+  .main__button:hover {
   opacity: .5;
 }
 
