@@ -572,8 +572,8 @@
 
   .logoimg {
       font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
-      height: 35px;
-      margin-left: -310px;
+      height: 25px;
+      margin-left: -360px;
   }
 
   .menu {
@@ -588,30 +588,30 @@
 
   .hamburger-menu {
     display: block;
-    margin-left: -110px;
+    margin-left: -270px;
     margin-top: 10px;
   }
 
   .main-content__title {
     width: 267px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: 100px;
-    margin-left: 130px;
-    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 0;
+    font-size: 25px;
   }
 
   .main-content__subtitle {
     width: 275px;
     font: normal 16px/18px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
-    margin-left: 120px;
+    margin-left: 0;
     margin-bottom: -90px;
-    margin-top: -135px;
+    margin-top: -175px;
   }
 
   .main-section {
     text-align: center;
-    background-size: 350px;
+    background-size: 250px;
     background-position: top center;
     margin-top: -40px;
     margin-right: 10px;
@@ -632,8 +632,8 @@
     border-radius: 4px;
     transition: opacity .5s;
     height: 17px;
-    margin-top: 132px;
-    margin-left: 150px;
+    margin-top: 110px;
+    margin-left: 40px;
     line-height: 1px;
   }
 
@@ -649,8 +649,8 @@
     display: flex;
     align-items: center;
     position: fixed;
-    width: 35px;
-    height: 50px;
+    width: 25px;
+    height: 40px;
     cursor: pointer;
     z-index: 3;
     margin: -50px -50px 10px 450px;
@@ -699,12 +699,12 @@
   .menu__item {
   display: block;
   color: #333;
-  font: bold 40px/45px 'Roboto', sans-serif;
+  font: bold 20px/35px 'Roboto', sans-serif;
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
   margin-right: 26px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 80px;
   position: relative;
   }
