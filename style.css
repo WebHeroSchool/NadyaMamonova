@@ -15,14 +15,14 @@
 }
 
 .logo {
-  padding: 0 20px 10px 48px;
   font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
   height: 35px;
   position: absolute;
+  margin-left: 40px;
+  margin-top: -3px;
 
 }
 .logoimg {
-  padding: 0 20px 10px 48px;
   font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
   height: 35px;
   background: url('img/logo.svg')no-repeat;
@@ -266,19 +266,21 @@
   .logo {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     margin-left: -120px;
+    margin-top: -8px;
   }
 
   .logoimg {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     height: 35px;
     background: url('img/logo.svg')no-repeat;
-    margin-left: -110px;
+    margin-left: -120px;
+    margin-top: -6px
   }
 
   .menu {
     display: flex;
     align-items: center;
-    margin-left: -35px;
+    margin-left: -30px;
   }
 
   .menu__item {
@@ -323,8 +325,8 @@
   .main-content__title {
     width: 520px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: -75px;
-    margin-left: -110px;
+    margin-top: -66px;
+    margin-left: -115px;
     font-size: 50px;
   }
 
@@ -332,7 +334,7 @@
     width: 367px;
     font: normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
-    margin-left: -110px;
+    margin-left: -120px;
     margin-bottom: -90px;
     margin-top: -65px;
   }
@@ -340,8 +342,8 @@
   .main-section {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
-    margin-top: -145px;
-    margin-right: -110px;
+    margin-top: -155px;
+    margin-right: -120px;
     background-size: 514px;
   }
 
@@ -360,7 +362,7 @@
     border-radius: 4px;
     transition: opacity .5s;
     height: 17px;
-    margin-top: 132px;
+    margin-top: 131px;
     margin-left: -112px;
     line-height: 1px;
   }
@@ -661,7 +663,7 @@
   .menu__btn > span::after {
     display: block;
     position: absolute;
-    width: 100%;
+    width: 90%;
     height: 2px;
     background-color: #0056EC;
     transition-duration: .25s;
