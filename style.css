@@ -612,11 +612,6 @@
     padding-right: 1px;
   }
 
-  .menu__btn > span::before {
-    content: '';
-    top: -8px;
-  }
-
   .menu__btn > span::after {
     content: '';
     top: 8px;
@@ -693,10 +688,10 @@
 
     .main-section {
       text-align: center;
-      background-size: 250px;
+      background-size: 280px;
       background-position: top center;
-      margin-top: -40px;
-      margin-right: 10px;
+      margin-top: -27px;
+      margin-right: -5px;
     }
 
   .main-content__title {
