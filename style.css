@@ -27,9 +27,10 @@ body {
   background: center no-repeat url(img/logo.svg);
 }
 
-.menu__toggle {
+menu__toggle {
   display: none;
 }
+
 .hamburger-menu {
   display: none;
 }
