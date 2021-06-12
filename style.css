@@ -27,7 +27,7 @@ body {
   background: center no-repeat url(img/logo.svg);
 }
 
-menu__toggle {
+.checkbox {
   display: none;
 }
 
