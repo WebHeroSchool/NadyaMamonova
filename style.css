@@ -244,19 +244,19 @@ body {
 
 @media (max-width: 1024px) {
   .header {
-    padding: 40px 50px;
     display: flex;
-    margin-bottom: 100px;
+    margin-right: -120px;
+    margin-top: 4px;
   }
 
   .logo {
-    margin-left: -120px;
-    margin-top: -8px;
+    margin-left: -70px;
+    margin-top: -3px;
   }
 
   .logoimg {
-    margin-left: -170px;
-    margin-top: -6px
+    margin-left: -112px;
+    margin-top: -5px
   }
 
   .hamburger-menu {
@@ -268,18 +268,18 @@ body {
   }
 
   .main-section {
-    margin-top: -155px;
-    margin-right: -120px;
+    margin-top: -150px;
+    margin-right: -112px;
   }
 
   .main-content__title {
-    margin-top: -57px;
-    margin-left: -115px;
+    margin-top: -82px;
+    margin-left: -114px;
   }
 
   .main-content__subtitle {
-    margin-left: -120px;
-    margin-top: -65px;
+    margin-left: -111px;
+    margin-top: -68px;
   }
 
   .main__button {
