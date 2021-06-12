@@ -8,23 +8,24 @@ body {
 }
 
 .header {
-  justify-content: space-between;
-  padding: 35px 0;
   display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
   margin-bottom: 100px
 }
 
 .logo {
+    font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     height: 35px;
     position: absolute;
-    margin-left: 40px;
-    margin-top: -3px;
+    margin-left: 49px;
 }
 
 .logoimg {
   height: 35px;
-  background: url(img/logo.svg) no-repeat;
-  width: 100%;
+  width: 35px;
+  background: center no-repeat url(img/logo.svg);
+
 }
 
 .hamburger-menu {
@@ -34,8 +35,6 @@ body {
 .menu {
     display: flex;
     align-items: center;
-    padding: 4px 15px 10px 600px;
-    margin: 2px 380px 0 542px;
 }
 
 .menu__item {
@@ -65,7 +64,7 @@ body {
 }
 
 .menu__item:last-child {
-    margin-right: 0;
+    margin-right: 10px;
     white-space: nowrap;
 }
 
