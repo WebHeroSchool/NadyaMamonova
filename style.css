@@ -300,7 +300,6 @@ body {
 
   .logoimg {
       height: 55px;
-      margin-left: -250px;
       background-size: 50px;
   }
 
@@ -310,7 +309,6 @@ body {
     height: 25px;
     margin-left: 40px;
     margin-top: 10px;
-
   }
 
   #menu__toggle {
