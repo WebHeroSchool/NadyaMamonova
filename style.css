@@ -303,6 +303,10 @@ body {
       background-size: 50px;
   }
 
+  #menu__toggle {
+    opacity: 0;
+  }
+
   .hamburger-menu {
     display: block;
     width: 40px;
@@ -310,10 +314,6 @@ body {
     margin-left: 150px;
     margin-top: 10px;
     margin-right: 70px;
-  }
-
-  #menu__toggle {
-    opacity: 0;
   }
 
   .menu__btn {
