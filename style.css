@@ -245,7 +245,7 @@ body {
 @media (max-width: 1024px) {
   .header {
     display: flex;
-    margin-right: -120px;
+    margin-right: -122px;
     margin-top: 4px;
   }
 
