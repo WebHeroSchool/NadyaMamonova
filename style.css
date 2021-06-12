@@ -1,4 +1,4 @@
-.body {
+body {
   margin: 0;
 }
 
@@ -15,7 +15,6 @@
 }
 
 .logo {
-    font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     height: 35px;
     position: absolute;
     margin-left: 40px;
