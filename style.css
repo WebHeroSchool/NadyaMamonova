@@ -25,9 +25,11 @@ body {
   height: 35px;
   width: 35px;
   background: center no-repeat url(img/logo.svg);
-
 }
 
+.menu__toggle {
+  display: none;
+}
 .hamburger-menu {
   display: none;
 }
