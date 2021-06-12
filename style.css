@@ -290,7 +290,6 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    margin-bottom: 28px;
     margin-left: 180px;
   }
 
@@ -307,8 +306,6 @@ body {
     display: block;
     width: 40px;
     height: 25px;
-    margin-left: 40px;
-    margin-top: 10px;
   }
 
   #menu__toggle {
@@ -323,7 +320,6 @@ body {
     height: 60px;
     cursor: pointer;
     z-index: 3;
-    margin: -50px -50px 10px 450px;
   }
 
   .menu__btn > span,
@@ -335,28 +331,22 @@ body {
     height: 4px;
     background-color: #0056EC;
     transition-duration: .25s;
-    padding-right: 1px;
   }
 
   .menu__btn > span::before {
     content: '';
-    top: -8px;
   }
 
   .menu__btn > span::after {
     content: '';
-    top: 8px;
   }
 
   .menu__box {
     display: block;
     position: fixed;
     visibility: hidden;
-    top: 0;
-    margin-left: -143px;
     width: 100%;
     height: 100%;
-    margin-top: 1px;
     padding: 80px;
     list-style: none;
     text-align: center;
