@@ -324,6 +324,9 @@ body {
   }
 
   .menu__btn > span {
+    position: relative;
+    height: 30px;
+    width: 35px;
   }
 
   .menu__btn > span::before,
