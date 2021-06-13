@@ -341,10 +341,12 @@ body {
 
   .menu__btn > span::before {
     content: '';
+    top: 5px;
   }
 
   .menu__btn > span::after {
     content: '';
+    top: 80px;
   }
 
   .menu__box {
