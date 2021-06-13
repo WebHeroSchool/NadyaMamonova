@@ -374,10 +374,8 @@ body {
 
   .menu__item {
   display: block;
-  padding: 12px 24px;
   color: #333;
   font: bold 40px/45px 'Roboto', sans-serif;
-  font-size: 20px;
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
