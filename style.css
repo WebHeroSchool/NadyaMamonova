@@ -327,6 +327,7 @@ body {
     position: relative;
     height: 30px;
     width: 35px;
+    background-color: #0056EC;
   }
 
   .menu__btn > span::before,
