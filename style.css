@@ -301,6 +301,9 @@ body {
   .logoimg {
       height: 55px;
       background-size: 50px;
+      margin-left: -190px;
+      margin-top: 10px;
+}
   }
 
   #menu__toggle {
@@ -317,16 +320,18 @@ body {
     display: flex;
     align-items: center;
     position: fixed;
-    width: 45px;
-    height: 55px;
+    width: 60px;
+    height: 65px;
     cursor: pointer;
     z-index: 3;
+    margin-left: -200px;
+    margin-top: -10px;
   }
 
   .menu__btn > span {
     position: relative;
     height: 5px;
-    width: 37px;
+    width: 42px;
     background-color: #0056EC;
   }
 
@@ -369,8 +374,10 @@ body {
 
   .menu__item {
   display: block;
+  padding: 12px 24px;
   color: #333;
   font: bold 40px/45px 'Roboto', sans-serif;
+  font-size: 20px;
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
