@@ -318,15 +318,15 @@ body {
     align-items: center;
     position: fixed;
     width: 45px;
-    height: 60px;
+    height: 55px;
     cursor: pointer;
     z-index: 3;
   }
 
   .menu__btn > span {
     position: relative;
-    height: 30px;
-    width: 35px;
+    height: 5px;
+    width: 37px;
     background-color: #0056EC;
   }
 
@@ -342,12 +342,12 @@ body {
 
   .menu__btn > span::before {
     content: '';
-    top: 5px;
+    top: 8px;
   }
 
   .menu__btn > span::after {
     content: '';
-    top: 13px;
+    top: 15px;
   }
 
   .menu__box {
