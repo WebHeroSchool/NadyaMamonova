@@ -561,9 +561,9 @@ body {
   transition-duration: .25s;
   margin-top: -7px;
   margin-left: 220px;
-  line-height: 212px;
+  line-height: 237px;
   position: relative;
-  margin-bottom: -202px;
+  margin-bottom: -201px;
   }
 
   .menu__item_active::after {
