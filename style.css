@@ -47,6 +47,7 @@ body {
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
+    margin-top: 4px;
   }
 
 .menu__item:after {
@@ -100,7 +101,7 @@ body {
     padding-bottom: 0;
     margin-bottom: 50px;
     margin-top: -100px;
-    margin-left: -1px;
+    margin-left: 4px;
 }
 
 .main__title-text_highlight {
@@ -144,6 +145,7 @@ body {
   .logo {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     position: absolute;
+    margin-left: 51px;
   }
 
   .logoimg {
@@ -193,7 +195,7 @@ body {
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
     margin-top: -80px;
     font-size: 50px;
-    margin-left: 10px
+    margin-left: 6px
   }
 
   .main-content__subtitle {
@@ -265,6 +267,7 @@ body {
 
   .menu {
     margin-left: 16px;
+    margin-top: -1px;
   }
 
   .main-section {
