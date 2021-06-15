@@ -499,7 +499,7 @@ body {
 
   .hamburger-menu {
     display: block;
-    margin-top: 9px;
+    margin-top: 15px;
   }
 
   #menu__toggle {
@@ -605,20 +605,21 @@ body {
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 140px;
+    background: #FFFFFF;
     }
 
     .main-section {
       text-align: center;
       background-size: 265px;
       background-position: top center;
-      margin-top: -54px;
+      margin-top: -40px;
       margin-right: -1px;
     }
 
   .main-content__title {
     width: 267px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: 29px;
+    margin-top: 22px;
     margin-left: 20px;
     font-size: 30px;
   }
@@ -629,7 +630,7 @@ body {
     position: sticky;
     margin-left: 15px;
     margin-bottom: -90px;
-    margin-top: -154px;
+    margin-top: -152px;
     font-weight: 500;
   }
 
@@ -648,9 +649,10 @@ body {
     border-radius: 4px;
     transition: opacity .5s;
     height: 17px;
-    margin-top: 115px;
-    margin-left: 20px;
+    margin-top: 116px;
+    margin-left: 43px;
     line-height: 1px;
+    width: 213px;
   }
 
   .main__button:hover {
