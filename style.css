@@ -476,8 +476,13 @@ body {
 }
 
 @media (max-width: 375px) {
+  .wrapper {
+    width: 80%;
+    }
+
   .header {
       margin-bottom: 16px;
+      width: 52%;
     }
 
   .logo {
@@ -486,7 +491,7 @@ body {
 
   .logoimg {
     height: 35px;
-    margin-left: -215px;
+    margin-left: -194px;
     width: 60px;
     background-size: 35px;
     margin-top: -20px;
@@ -494,8 +499,7 @@ body {
 
   .hamburger-menu {
     display: block;
-    margin-left: -147px;
-    margin-top: 16px;
+    margin-top: 9px;
   }
 
   #menu__toggle {
@@ -511,7 +515,7 @@ body {
     cursor: pointer;
     z-index: 3;
     margin-top: -38px;
-    margin-left: -73px;
+    margin-left: -8px;
   }
 
   .menu__btn > span,
@@ -562,8 +566,8 @@ body {
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
-  margin-top: -7px;
-  margin-left: 220px;
+  margin-top: -8px;
+  margin-left: 0px;
   line-height: 237px;
   position: relative;
   margin-bottom: -201px;
@@ -591,7 +595,7 @@ body {
     transform: rotate(45deg);
   }
   #menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
+    top: 2px;
     transform: rotate(0);
   }
   #menu__toggle:checked ~ .menu__btn > span::after {
@@ -600,12 +604,12 @@ body {
   }
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
-    left: 0px;
+    left: 140px;
     }
 
     .main-section {
       text-align: center;
-      background-size: 280px;
+      background-size: 265px;
       background-position: top center;
       margin-top: -54px;
       margin-right: -1px;
@@ -615,7 +619,7 @@ body {
     width: 267px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
     margin-top: 29px;
-    margin-left: -1px;
+    margin-left: 20px;
     font-size: 30px;
   }
 
@@ -623,9 +627,9 @@ body {
     width: 275px;
     font: normal 16px/18px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
-    margin-left: -6px;
+    margin-left: 15px;
     margin-bottom: -90px;
-    margin-top: -152px;
+    margin-top: -154px;
     font-weight: 500;
   }
 
