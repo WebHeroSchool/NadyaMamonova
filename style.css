@@ -11,7 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
-  margin-bottom: 100px
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -258,7 +258,7 @@ body {
 
   .logoimg {
     margin-left: -112px;
-    margin-top: -5px
+    margin-top: -5px;
   }
 
   .hamburger-menu {
@@ -305,7 +305,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 40px 0;
-    margin-bottom: 100px
+    margin-bottom: 100px;
   }
 
   .logo {
@@ -409,7 +409,7 @@ body {
     font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
     margin-bottom: 1px;
-    }
+  }
 
   .main__button {
   display: inline-block;
@@ -421,7 +421,7 @@ body {
     border-radius: 4px;
     transition: opacity .5s;
     margin: 33px -10px 9px 4px;
-      }
+  }
 
   .main__button:hover {
     opacity: .5;
@@ -451,7 +451,7 @@ body {
 
   .logoimg {
     margin-left: -112px;
-    margin-top: -5px
+    margin-top: -5px;
   }
 
   .hamburger-menu {
