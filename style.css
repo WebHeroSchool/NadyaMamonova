@@ -495,10 +495,11 @@ body {
   }
 
   .logoimg {
-      height: 55px;
+      height: 65px;
       background-size: 50px;
       margin-left: -190px;
       margin-top: 10px;
+      width: 60px;
   }
 
   #menu__toggle {
@@ -615,6 +616,7 @@ body {
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0px;
+    background: #FFFFFF;
   }
 
   .main-section {
@@ -1046,12 +1048,12 @@ body {
     background: #FFFFFF;
     }
 
-    .main-section {
-      text-align: center;
-      background-size: 265px;
-      background-position: top center;
-      margin-top: -49px;
-      margin-right: -1px;
+  .main-section {
+    text-align: center;
+    background-size: 265px;
+    background-position: top center;
+    margin-top: -49px;
+    margin-right: -1px;
     }
 
   .main-content__title {
