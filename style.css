@@ -84,7 +84,7 @@ body {
 .main-section {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
-    padding: 230px 150px 180px 0px;
+    padding: 234px 150px 180px 0px;
     margin-top: -31px;
 }
 
@@ -137,8 +137,8 @@ body {
     background: url(img/detail.svg) center no-repeat;
     position: absolute;
     width: 32px;
-    left: 944px;
-    top: 1028px;
+    padding-bottom: 495px;
+    padding-right: 1500px;
   }
 }
 
