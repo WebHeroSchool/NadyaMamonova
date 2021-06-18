@@ -141,6 +141,7 @@ body {
   padding-right: 1500px;
   }
 }
+
 @media (max-width: 1480px) {
   .header {
     display: flex;
@@ -243,7 +244,7 @@ body {
   .main-content__title {
     width: 520px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: -80px;
+    margin-top: -85px;
     font-size: 50px;
     margin-left: 6px;
   }
