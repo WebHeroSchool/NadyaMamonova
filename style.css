@@ -400,8 +400,9 @@ body {
   .main-section {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
-    padding: 230px 150px 180px 0px;
+    padding: 100px 150px 180px 0px;
     margin-top: -31px;
+    background-size: 60%;
   }
 
   .main-content {
@@ -413,7 +414,7 @@ body {
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 66px;
+    font-size: 44px;
     padding-bottom: 0;
     margin-bottom: 50px;
     margin-top: -100px;
@@ -427,8 +428,8 @@ body {
   }
 
   .main-content__subtitle {
-    width: 455px;
-    font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
+    width: 340px;
+    font: normal 18px/20px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
     margin-bottom: 1px;
   }
