@@ -137,8 +137,10 @@ body {
   background: url(img/detail.svg) center no-repeat;
   position: absolute;
   width: 32px;
-  padding-bottom: 495px;
-  padding-right: 1500px;
+  padding-bottom: 265px;
+  padding-right: 760px;
+  padding-top: 244px;
+  padding-left: 740px;
   }
 }
 
