@@ -98,9 +98,8 @@ body {
    font-style: normal;
    font-weight: bold;
    font-size: 66px;
-   padding-bottom: 0;
-   margin-bottom: 50px;
-   margin-top: -100px;
+   margin-bottom: 42px;
+   margin-top: -99px;
    margin-left: 4px;
  }
 
@@ -114,7 +113,8 @@ body {
     width: 455px;
     font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
-    margin-bottom: 1px;
+    margin-bottom: -4px;
+    letter-spacing: 0.2px;
   }
 
   .main__button {
