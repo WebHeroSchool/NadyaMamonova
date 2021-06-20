@@ -100,7 +100,7 @@ body {
    font-weight: bold;
    font-size: 66px;
    margin-bottom: 46px;
-   margin-top: -99px;
+   margin-top: -102px;
    margin-left: 4px;
  }
 
@@ -332,7 +332,7 @@ body {
   .main-section {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
-    margin-top: -162px;
+    margin-top: -155px;
     margin-right: 5px;
     background-size: 514px;
   }
@@ -340,7 +340,7 @@ body {
   .main-content__title {
     width: 520px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: -72px;
+    margin-top: -77px;
     font-size: 50px;
     margin-left: 6px;
   }
@@ -369,7 +369,7 @@ body {
     border-radius: 4px;
     transition: opacity .5s;
     height: 17px;
-    margin-top: 130px;
+    margin-top: 124px;
     line-height: 1px;
     width: 209px;
   }
