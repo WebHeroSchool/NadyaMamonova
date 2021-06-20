@@ -277,7 +277,6 @@ body {
 
   .image-content {
     background: url(img/detail.svg) center no-repeat;
-    position: absolute;
     width: 32px;
     padding-bottom: 265px;
     padding-right: 760px;
@@ -377,7 +376,6 @@ body {
 
   .image-content {
     background: url('img/detail.svg') center no-repeat;
-    position: absolute;
     width: 32px;
     bottom: -223px;
     right: 0px;
@@ -522,7 +520,6 @@ body {
 
   .image-content {
     background: url(img/detail.svg) center no-repeat;
-    position: absolute;
     width: 32px;
     left: 944px;
     top: 1028px;
