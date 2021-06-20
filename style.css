@@ -521,8 +521,8 @@ body {
   .image-content {
     background: url(img/detail.svg) center no-repeat;
     width: 32px;
-    left: 944px;
-    top: 1028px;
+    
+
     }
   }
 
@@ -530,7 +530,8 @@ body {
   .header {
     display: flex;
     margin-right: -122px;
-    margin-top: 4px;
+    margin-top: 60px;
+    margin-left: 55px;
   }
 
   .logo {
@@ -553,24 +554,30 @@ body {
   }
 
   .main-section {
-    margin-top: -150px;
-    margin-right: -112px;
+    margin-top: -15px;
+    margin-right: -12px;
   }
 
   .main-content__title {
     margin-top: -82px;
     margin-left: -114px;
+    font-size: 50px;
   }
 
   .main-content__subtitle {
-    margin-left: -111px;
+    margin-left: -51px;
     margin-top: -68px;
+    width: 367px;
   }
 
   .main__button {
-    margin-top: 131px;
-    margin-left: -112px;
+    margin-top: 36px;
+    margin-left: -55px;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
+
+  .image-content {
+    margin: 20px;
 }
 
 @media (max-width: 768px) {
