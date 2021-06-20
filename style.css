@@ -113,7 +113,6 @@ body {
 .main-content__subtitle {
     width: 455px;
     font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
-    position: sticky;
     margin-bottom: -4px;
     letter-spacing: 0.2px;
   }
@@ -256,7 +255,6 @@ body {
   .main-content__subtitle {
       width: 455px;
       font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
-      position: sticky;
       margin-bottom: -4px;
       letter-spacing: 0.2px;
     }
@@ -348,7 +346,6 @@ body {
   .main-content__subtitle {
     width: 367px;
     font: normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
-    position: sticky;
     margin-bottom: -85px;
     margin-top: -69px;
     margin-left: 6px;
@@ -504,7 +501,6 @@ body {
   .main-content__subtitle {
     width: 340px;
     font: normal 18px/20px 'Roboto', arial, helvetica, sans-serif;
-    position: sticky;
     margin-bottom: 1px;
   }
 
