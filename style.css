@@ -340,7 +340,7 @@ body {
   .main-content__title {
     width: 520px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: -77px;
+    margin-top: -80px;
     font-size: 50px;
     margin-left: 6px;
   }
@@ -382,7 +382,7 @@ body {
     background: url('img/detail.svg') center no-repeat;
     position: absolute;
     width: 32px;
-    bottom: 198px;
+    bottom: -223px;
     right: 0px;
   }
 
