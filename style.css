@@ -521,8 +521,6 @@ body {
   .image-content {
     background: url(img/detail.svg) center no-repeat;
     width: 32px;
-
-
     }
   }
 
@@ -547,11 +545,11 @@ body {
   }
 
   .menu {
-  margin-right: 41px;
+  margin-right: 37px;
   }
 
   .menu__item {
-    font: normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: bold normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
     margin-top: 4px;
   }
 
