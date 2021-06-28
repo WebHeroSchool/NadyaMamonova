@@ -864,7 +864,8 @@ body {
   }
 
   .main__button {
-    width: 70%;
+    width: 67%;
+    margin-top: 100px;
   }
 
   .main__button:hover {
