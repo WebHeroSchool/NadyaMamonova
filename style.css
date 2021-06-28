@@ -548,16 +548,18 @@ body {
   .wrapper {
     width: 100%;
   }
+
   .header {
-    margin-left: 160px;
+    margin-left: 55px;
   }
 
   .logo {
     margin-left: -70px;
+    font-size: 18px;
   }
 
   .logoimg {
-    margin-left: -112px;
+    margin-left: -118px;
   }
 
   .hamburger-menu {
@@ -565,7 +567,7 @@ body {
   }
 
   .menu {
-  margin-right: 37px;
+  margin-right: -37px;
   }
 
   .menu__item {
@@ -574,33 +576,36 @@ body {
   }
 
   .main-section {
-    margin-top: -144px;
-    margin-right: 47px;
-    background-size: 514px;
+    margin-top: -214px;
+    margin-right: 27px;
+    background-size: 380px;
   }
 
   .main-content__title {
-    margin-top: 40px;
-    margin-left: 44px;
-    font-size: 50px;
+    margin-top: -50px;
+    margin-left: -54px;
+    font-size: 35px;
+    width: 70%;
   }
 
   .main-content__subtitle {
-    margin-left: 47px;
+    margin-left: -57px;
     width: 367px;
+    margin-top: -100px;
+    font: 15px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main__button {
-    margin-top: 41px;
-    margin-left: 45px;
+    margin-top: 121px;
+    margin-left: -60px;
     font-size: 12px;
-    width: 51%;
+    width: 41%;
     line-height: 0px;
     word-spacing: 3px;
   }
 
   .image-content {
-    padding-right: 250px;
+    width: 30%;
   }
 }
 
