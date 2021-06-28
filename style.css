@@ -232,7 +232,9 @@ body {
 
   .main-content__subtitle {
       width: 455px;
-      font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
+      font: 500 22px/26px 'Roboto', arial, helvetica, sans-serif;
+      letter-spacing: 0.2px;
+      font-weight: normal;
       letter-spacing: 0.2px;
     }
 
