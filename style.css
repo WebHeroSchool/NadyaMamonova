@@ -613,7 +613,7 @@ body {
     height: 65px;
     cursor: pointer;
     z-index: 3;
-    margin-left: -200px;
+    margin-left: -80px;
     margin-top: 30px;
   }
 
@@ -721,8 +721,8 @@ body {
 
   .main-content__title {
     width: 325px;
-    margin-top: 300px;
-    margin-left: 220px;
+    margin-top: 180px;
+    margin-left: 150px;
     font-size: 40px;
   }
 
@@ -733,7 +733,7 @@ body {
   .main-content__subtitle {
     width: 295px;
     position: sticky;
-    margin-left: 230px;
+    margin-left: 150px;
     margin-top: -85px;
     font-weight: 500;
     size: 30px;
@@ -747,9 +747,10 @@ body {
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
-    margin-left: 250px;
+    margin-left: 20px;
     width: 90%;
     height: 40%;
+    margin-top: 140px;
   }
 
   .main__button:hover {
