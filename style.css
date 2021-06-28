@@ -883,8 +883,8 @@ body {
 
   .logoimg {
     height: 42px;
-    margin-left: -185px;
     background-size: 40px;
+    padding-top: 30px;
   }
 
   #menu__toggle {
@@ -894,6 +894,7 @@ body {
   .menu__btn {
     width: 35px;
     height: 45px;
+    right: 50px;
   }
 
   .menu__btn > span,
@@ -901,7 +902,7 @@ body {
   .menu__btn > span::after {
     display: block;
     position: absolute;
-    width: 90%;
+    width: 94%;
     height: 2px;
     background-color: #0056EC;
     transition-duration: .25s;
@@ -942,19 +943,21 @@ body {
     visibility: visible;
     left: 140px;
     background: #FFFFFF;
+    left: 0px;
     }
 
     .main-section {
       background-size: 315px;
+      margin-left: 40px;
     }
 
   .main-content__title {
     margin-top: 45px;
-    margin-left: 50px;
+    margin-left: 0px;
   }
 
   .main-content__subtitle {
-    margin-left: 50px;
+    margin-left: 0px;
   }
 
   .main__title-text_highlight {
@@ -964,8 +967,8 @@ body {
   }
 
   .main__button {
-    margin-left: 85px;
-    width: 205px;
+    margin-left: 0px;
+    width: 265px;
   }
 
   .main__button:hover {
