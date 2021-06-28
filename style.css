@@ -1066,7 +1066,7 @@ body {
 
   .menu__item {
   display: block;
-  color: #333;
+  color: #000000
   font: bold 30px/35px 'Roboto', sans-serif;
   font-weight: 600;
   text-decoration: none;
@@ -1171,7 +1171,7 @@ body {
 
   @media (max-width: 320px) {
     .wrapper {
-      width: 60%;
+      width: 100%;
       }
 
     .header {
@@ -1184,7 +1184,9 @@ body {
 
     .logoimg {
       height: 35px;
-      margin-left: -170px;
+      padding-left: 70px;
+      padding-top: 10px;
+}
     }
 
     .hamburger-menu {
@@ -1212,6 +1214,7 @@ body {
 
       .main-section {
       background-size: 255px;
+      margin-left: 10px;
     }
 
     .main-content__title {
@@ -1230,10 +1233,10 @@ body {
     }
 
     .main__button {
-      font: 10px/14px 'Roboto', arial, helvetica, sans-serif;
-      margin-left: 63px;
+      font: 16px 'Roboto', arial, helvetica, sans-serif;
+      margin-left: -40px;
       line-height: 1px;
-      width: 203px;
+      width: 263px;
     }
 
     .main__button:hover {
