@@ -544,6 +544,71 @@ body {
   }
 }
 
+@media (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .header {
+    margin-left: 55px;
+  }
+
+  .logo {
+    margin-left: -70px;
+    font-size: 18px;
+  }
+
+  .logoimg {
+    margin-left: -118px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .menu {
+  margin-right: -37px;
+  }
+
+  .menu__item {
+    font: bold normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    margin-top: 4px;
+  }
+
+  .main-section {
+    margin-top: -214px;
+    margin-right: 27px;
+    background-size: 380px;
+  }
+
+  .main-content__title {
+    margin-top: -50px;
+    margin-left: -54px;
+    font-size: 35px;
+    width: 70%;
+  }
+
+  .main-content__subtitle {
+    margin-left: -57px;
+    width: 367px;
+    margin-top: -100px;
+    font: 15px 'Roboto', arial, helvetica, sans-serif;
+  }
+
+  .main__button {
+    margin-top: 121px;
+    margin-left: -60px;
+    font-size: 12px;
+    width: 41%;
+    line-height: 0px;
+    word-spacing: 3px;
+  }
+
+  .image-content {
+    width: 30%;
+  }
+}
+
 @media (max-width: 770px) {
   .wrapper {
     width: 100%;
@@ -785,6 +850,83 @@ body {
     width: 50%;
     height: 40%;
     margin-top: 140px;
+  }
+
+  .main__button:hover {
+    opacity: 5;
+  }
+
+  .image-content {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .wrapper {
+    width: 100%;
+    }
+
+  .header {
+    width: 40%;
+    }
+
+  .logo {
+    display: none;
+  }
+
+  .logoimg {
+    height: 35px;
+    padding-left: -90px;
+    padding-top: 10px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  .menu__btn {
+    display: flex;
+    margin-top: -42px;
+    margin-left: -3px;
+  }
+
+  .menu__btn > span::after {
+    content: '';
+    top: 14px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+    .main-section {
+    background-size: 255px;
+    margin-left: 10px;
+  }
+
+  .main-content__title {
+    margin-top: 2px;
+    font-size: 28px;
+  }
+
+  .main-content__subtitle {
+    margin-top: -174px;
+  }
+
+  .main__title-text_highlight {
+    background: #ECF3FF;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
+    margin-right: -7px;
+  }
+
+  .main__button {
+    margin-left: 60px;
+    width: 77%;
+    margin-top: 100px;
   }
 
   .main__button:hover {
@@ -1062,7 +1204,7 @@ body {
 
   .logoimg {
     height: 35px;
-    margin-left: -194px;
+    margin-left: -114px;
     width: 60px;
     background-size: 35px;
     margin-top: -20px;
