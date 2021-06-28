@@ -544,6 +544,66 @@ body {
   }
 }
 
+@media (max-width: 770px) {
+  .wrapper {
+    width: 100%;
+  }
+  .header {
+    margin-left: 160px;
+  }
+
+  .logo {
+    margin-left: -70px;
+  }
+
+  .logoimg {
+    margin-left: -112px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  .menu {
+  margin-right: 37px;
+  }
+
+  .menu__item {
+    font: bold normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    margin-top: 4px;
+  }
+
+  .main-section {
+    margin-top: -144px;
+    margin-right: 47px;
+    background-size: 514px;
+  }
+
+  .main-content__title {
+    margin-top: 40px;
+    margin-left: 44px;
+    font-size: 50px;
+  }
+
+  .main-content__subtitle {
+    margin-left: 47px;
+    width: 367px;
+  }
+
+  .main__button {
+    margin-top: 41px;
+    margin-left: 45px;
+    font-size: 12px;
+    width: 51%;
+    line-height: 0px;
+    word-spacing: 3px;
+  }
+
+  .image-content {
+    padding-right: 250px;
+  }
+}
+
 @media (max-width: 768px) {
   .wrapper {
     width: 100%;
