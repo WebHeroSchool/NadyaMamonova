@@ -1125,7 +1125,7 @@ body {
     width: 267px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
     margin-top: 26px;
-    margin-left: 20px;
+    margin-left: -55px;
     font-size: 30px;
   }
 
@@ -1133,7 +1133,7 @@ body {
     width: 275px;
     font: normal 16px/18px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
-    margin-left: 15px;
+    margin-left: -60px;
     margin-bottom: -90px;
     margin-top: -152px;
     font-weight: 500;
@@ -1155,7 +1155,7 @@ body {
     transition: opacity .5s;
     height: 17px;
     margin-top: 116px;
-    margin-left: 43px;
+    margin-left: -33px;
     line-height: 1px;
     width: 213px;
   }
