@@ -1076,6 +1076,7 @@ body {
   line-height: 237px;
   position: relative;
   margin-bottom: -201px;
+  font-size: 30px;
   }
 
   .menu__item_active::after {
