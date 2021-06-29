@@ -1138,7 +1138,7 @@ body {
   .logoimg {
     height: 42px;
     background-size: 40px;
-    padding-top: 30px;
+    margin-left: -170px;
   }
 
   #menu__toggle {
