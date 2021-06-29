@@ -1149,7 +1149,6 @@ body {
   .menu__btn {
     width: 35px;
     height: 45px;
-    right: 50px;
   }
 
   .menu__btn > span,
@@ -1241,7 +1240,6 @@ body {
     }
 
   .header {
-      margin-bottom: 16px;
       width: 52%;
     }
 
@@ -1251,15 +1249,14 @@ body {
 
   .logoimg {
     height: 35px;
-    margin-left: -114px;
+    margin-left: -141px;
     width: 60px;
     background-size: 35px;
-    margin-top: -20px;
+    margin-top: -31px;
   }
 
   .hamburger-menu {
     display: block;
-    margin-top: 15px;
   }
 
   #menu__toggle {
@@ -1274,8 +1271,8 @@ body {
     height: 40px;
     cursor: pointer;
     z-index: 3;
-    margin-top: -38px;
-    margin-left: -8px;
+    margin-left: 117px;
+    padding-top: 4px;
   }
 
   .menu__btn > span,
@@ -1326,7 +1323,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
-  margin-top: -8px;
+  margin-top: -9px;
   margin-left: 0px;
   line-height: 237px;
   position: relative;
@@ -1371,16 +1368,17 @@ body {
 
   .main-section {
     text-align: center;
-    background-size: 265px;
+    background-size: 274px;
     background-position: top center;
-    margin-top: -49px;
-    margin-right: -1px;
+    margin-top: -58px;
+    width: 20%;
+    margin-left: 15px;
     }
 
   .main-content__title {
     width: 267px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: 26px;
+    margin-top: 22px;
     margin-left: -55px;
     font-size: 30px;
   }
@@ -1389,9 +1387,9 @@ body {
     width: 275px;
     font: normal 16px/18px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
-    margin-left: -60px;
+    margin-left: -57px;
     margin-bottom: -90px;
-    margin-top: -152px;
+    margin-top: -147px;
     font-weight: 500;
   }
 
@@ -1403,15 +1401,14 @@ body {
 
   .main__button {
     display: inline-block;
-    font: 12px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 12px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
     background: #0056EC;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
-    height: 17px;
     margin-top: 116px;
-    margin-left: -33px;
+    margin-left: -31px;
     line-height: 1px;
     width: 213px;
   }
