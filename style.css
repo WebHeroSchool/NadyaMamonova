@@ -1132,9 +1132,9 @@ body {
 
 @media (max-width: 559px) {
   .logoimg {
-    padding-right: 200px;
+    padding-right: 160px;
   }
-  
+
   .menu__btn {
     padding-left: 110px;
   }
