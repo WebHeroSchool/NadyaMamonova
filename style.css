@@ -1130,6 +1130,16 @@ body {
   }
 }
 
+@media (max-width: 559px) {
+  .logoimg {
+    padding-right: 200px;
+  }
+  
+  .menu__btn {
+    padding-left: 110px;
+  }
+}
+
 @media (max-width: 480px) {
   .logo {
     display: none;
