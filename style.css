@@ -738,6 +738,7 @@ body {
       height: 65px;
       background-size: 50px;
       width: 60px;
+      margin-left: 18px;
   }
 
   #menu__toggle {
@@ -923,8 +924,8 @@ body {
 
   .logoimg {
     height: 35px;
-    padding-left: -90px;
     padding-top: 10px;
+    padding-right: 250px;
   }
 
   .hamburger-menu {
