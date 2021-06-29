@@ -1156,12 +1156,8 @@ body {
     display: block;
     position: absolute;
     width: 94%;
-    height: 2px;
     background-color: #0056EC;
     transition-duration: .25s;
-    padding-right: 2px;
-    padding-top: 1px;
-    margin-top: -2px;
   }
 
   .menu__btn > span::after {
@@ -1220,8 +1216,9 @@ body {
   }
 
   .main__button {
-    margin-left: 0px;
-    width: 265px;
+    margin-left: 35px;
+    width: 215px;
+    margin-top: 130px;
   }
 
   .main__button:hover {
