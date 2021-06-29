@@ -126,7 +126,8 @@ body {
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
-    margin: 33px -10px 9px 4px;
+    margin: 37px -10px 9px 4px;
+    height: 63px;
   }
 
 .main__button:hover {
@@ -138,9 +139,9 @@ body {
   position: absolute;
   width: 32px;
   padding-bottom: 265px;
-  padding-right: 760px;
+  padding-right: 770px;
   padding-top: 265px;
-  padding-left: 740px;
+  padding-left: 735px;
   }
 
 @media (max-width: 1480px) {
@@ -314,7 +315,7 @@ body {
     width: 367px;
     font: normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
     margin-bottom: -85px;
-    margin-top: -69px;
+    margin-top: -68px;
     margin-left: 6px;
   }
 
@@ -329,13 +330,10 @@ body {
     font: 12px/16px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
     background: #0056EC;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: opacity .5s;
-    height: 17px;
-    margin-top: 124px;
-    line-height: 1px;
-    width: 209px;
+    height: 47px;
+    margin-top: 126px;
+    line-height: 0px;
+    width: 216px;
   }
 
   .main__button:hover {
