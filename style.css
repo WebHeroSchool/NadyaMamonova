@@ -909,90 +909,13 @@ body {
   }
 }
 
-@media (max-width: 560px) {
-  .wrapper {
-    width: 100%;
-    }
-
-  .header {
-    width: 40%;
-    }
-
-  .logo {
-    display: none;
-  }
-
-  .logoimg {
-    height: 35px;
-    padding-top: 10px;
-    padding-right: 250px;
-  }
-
-  .hamburger-menu {
-    display: block;
-  }
-
-  #menu__toggle {
-    opacity: 0;
-  }
-
-  .menu__btn {
-    display: flex;
-    margin-top: -42px;
-    margin-left: -3px;
-  }
-
-  .menu__btn > span::after {
-    content: '';
-    top: 14px;
-  }
-
-  .menu {
-    display: none;
-  }
-
-    .main-section {
-    background-size: 255px;
-    margin-left: 10px;
-  }
-
-  .main-content__title {
-    margin-top: 2px;
-    font-size: 28px;
-  }
-
-  .main-content__subtitle {
-    margin-top: -174px;
-  }
-
-  .main__title-text_highlight {
-    background: #ECF3FF;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
-    margin-right: -7px;
-  }
-
-  .main__button {
-    margin-left: 60px;
-    width: 77%;
-    margin-top: 100px;
-  }
-
-  .main__button:hover {
-    opacity: 5;
-  }
-
-  .image-content {
-    display: none;
-  }
-}
-
 @media (max-width: 600px) {
   .logo {
     display: none;
   }
 
   .logoimg {
-    margin-left: -194px;
+    margin-left: -54px;
     width: 55px;
     background-size: 45px;
     margin-top: -20px;
@@ -1121,6 +1044,81 @@ body {
   .main__button {
     width: 67%;
     margin-top: 100px;
+  }
+
+  .main__button:hover {
+    opacity: 5;
+  }
+
+  .image-content {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .wrapper {
+    width: 100%;
+    }
+
+  .header {
+    width: 40%;
+    }
+
+  .logo {
+    display: none;
+  }
+
+  .logoimg {
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 250px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  .menu__btn {
+    padding-left: 190px;
+  }
+
+  .menu__btn > span::after {
+    content: '';
+    top: 14px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+    .main-section {
+    background-size: 255px;
+    margin-left: 10px;
+  }
+
+  .main-content__title {
+    margin-top: 2px;
+    font-size: 28px;
+  }
+
+  .main-content__subtitle {
+    padding-top: 10px;
+  }
+
+  .main__title-text_highlight {
+    background: #ECF3FF;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
+    margin-right: -7px;
+  }
+
+  .main__button {
+    margin-left: 60px;
+    padding-top: 15px;
+    font-size: 12px;
   }
 
   .main__button:hover {
