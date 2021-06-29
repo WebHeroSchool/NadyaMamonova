@@ -1244,10 +1244,9 @@ body {
 
   .logoimg {
     height: 35px;
-    margin-left: -141px;
+    margin-left: -246px;
     width: 60px;
     background-size: 35px;
-    margin-top: -31px;
   }
 
   .hamburger-menu {
@@ -1266,8 +1265,7 @@ body {
     height: 40px;
     cursor: pointer;
     z-index: 3;
-    margin-left: 117px;
-    padding-top: 4px;
+    margin-left: -100px;
   }
 
   .menu__btn > span,
@@ -1278,9 +1276,6 @@ body {
     height: 2px;
     background-color: #0056EC;
     transition-duration: .25s;
-    padding-right: 2px;
-    padding-top: 1px;
-    margin-top: -2px;
   }
 
   .menu__btn > span::after {
