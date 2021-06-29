@@ -484,18 +484,10 @@ body {
 
 @media (max-width: 1024px) {
   .wrapper {
-    width: 100%;
+    width: 80%;
   }
   .header {
-    margin-left: 160px;
-  }
-
-  .logo {
-    margin-left: -70px;
-  }
-
-  .logoimg {
-    margin-left: -112px;
+    margin-left: -114px;
   }
 
   .hamburger-menu {
@@ -503,42 +495,39 @@ body {
   }
 
   .menu {
-  margin-right: 37px;
+  margin-right: -126px;
   }
 
   .menu__item {
     font: bold normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
-    margin-top: 4px;
   }
 
   .main-section {
-    margin-top: -144px;
-    margin-right: 47px;
+    margin-right: -55px;
     background-size: 514px;
   }
 
   .main-content__title {
-    margin-top: 40px;
-    margin-left: 44px;
+    margin-left: -116px;
     font-size: 50px;
   }
 
   .main-content__subtitle {
-    margin-left: 47px;
+    margin-left: -118px;
     width: 367px;
   }
 
   .main__button {
-    margin-top: 41px;
-    margin-left: 45px;
+    margin-left: -118px;
     font-size: 12px;
-    width: 51%;
-    line-height: 0px;
+    width: 29%;
     word-spacing: 3px;
+    height: 50px;
   }
 
   .image-content {
-    padding-right: 250px;
+    margin-right: -16px;
+    margin-bottom: -4px;
   }
 }
 
