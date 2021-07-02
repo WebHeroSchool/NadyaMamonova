@@ -982,7 +982,7 @@ body {
   .main__button {
     width: 350px;
   }
-  
+
 @media (max-width: 600px) {
   .logo {
     display: none;
@@ -1160,6 +1160,11 @@ body {
     padding-top: 15px;
   }
 
+  .menu__btn > span::before {
+      content: '';
+      top: 8px;
+    }
+
   .menu__btn > span::after {
     content: '';
     top: 14px;
@@ -1209,6 +1214,12 @@ body {
 
   .menu__btn {
     padding-left: 230px;
+  }
+}
+
+@media (max-width: 548px) {
+  .main__button {
+    width: 300px;
   }
 }
 
