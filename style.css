@@ -1313,9 +1313,10 @@ body {
 
   .logoimg {
     height: 35px;
-    margin-left: -219px;
+    margin-left: -90px;
     width: 60px;
     background-size: 35px;
+    padding-top: 7px;
   }
 
   .hamburger-menu {
@@ -1334,8 +1335,8 @@ body {
     height: 40px;
     cursor: pointer;
     z-index: 3;
-    margin-left: 6px;
-    margin-top: -34px;
+    margin-left: -80px;
+    margin-top: -54px;
   }
 
   .menu__btn > span,
@@ -1346,6 +1347,11 @@ body {
     height: 2px;
     background-color: #0056EC;
     transition-duration: .25s;
+  }
+
+  .menu__btn > span::before {
+    content: '';
+    top: 8px;
   }
 
   .menu__btn > span::after {
