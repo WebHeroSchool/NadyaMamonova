@@ -970,6 +970,19 @@ body {
   }
 }
 
+@media (max-width: 700px) {
+  .main-content__title {
+    margin-left: 90px;
+  }
+
+  .main-content__subtitle {
+    margin-left: 90px;
+  }
+
+  .main__button {
+    width: 350px;
+  }
+  
 @media (max-width: 600px) {
   .logo {
     display: none;
@@ -1454,7 +1467,7 @@ body {
     position: sticky;
     margin-left: -51px;
     margin-bottom: -90px;
-    margin-top: -157px;
+    margin-top: -147px;
     font-weight: 500;
     width: 260px;
   }
@@ -1516,9 +1529,8 @@ body {
 
     .menu__btn {
       display: flex;
-      margin-top: -42px;
-      margin-left: -3px;
-      margin-left: -150px;
+      margin-top: -52px;
+      margin-left: -50px;
     }
 
     .menu__btn > span::after {
@@ -1531,7 +1543,6 @@ body {
     .menu__btn > span::after {
       width: 90%;
     }
-
 
     .menu {
       display: none;
@@ -1558,10 +1569,10 @@ body {
     }
 
     .main__button {
-      font: 16px 'Roboto', arial, helvetica, sans-serif;
-      margin-left: -40px;
+      font: 14px 'Roboto', arial, helvetica, sans-serif;
+      margin-left: -20px;
       line-height: 1px;
-      width: 263px;
+      width: 233px;
     }
 
     .main__button:hover {
