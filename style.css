@@ -354,6 +354,37 @@ body {
   }
 }
 
+@media (max-width: 1200px) {
+.main-section {
+  background-size: 460px;
+  }
+
+  .main-content__title {
+    font-size: 45px;
+  }
+
+  .image-content {
+    padding-left: 420px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .main-section {
+    background-size: 430px;
+    margin-right: -40px;
+    }
+
+  .main-content__title {
+    font-size: 38px;
+    width: 450px;
+    }
+
+  .image-content {
+    padding-left: 280px;
+    padding-top: 20px;
+    }
+  }
+
 @media (max-width: 1064px) {
   .wrapper {
     margin: auto;
