@@ -362,6 +362,9 @@ body {
   .main-section {
     margin-right: -50px;
   }
+.image-content {
+  padding-bottom: 160px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -392,7 +395,6 @@ body {
 
   .image-content {
     padding-left: 280px;
-    padding-top: 20px;
     }
   }
 
@@ -638,6 +640,7 @@ body {
 
   .image-content {
     padding-right: 660px;
+    padding-top: 120px;
   }
 }
 
