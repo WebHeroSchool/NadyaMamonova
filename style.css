@@ -726,6 +726,14 @@ body {
   .main-content__title {
     width: 310px;
   }
+
+  .main-content__subtitle {
+      width: 300px;
+  }
+
+  .image-content {
+    padding-right: 260px;
+  }
 }
 
 @media (max-width: 770px) {
