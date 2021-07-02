@@ -796,10 +796,10 @@ body {
   }
 
   .logoimg {
-      height: 65px;
-      background-size: 50px;
+      height: 70px;
+      background-size: 70px;
       width: 60px;
-      margin-left: 18px;
+      margin-left: -15px;
   }
 
   #menu__toggle {
@@ -817,18 +817,18 @@ body {
     display: flex;
     align-items: center;
     position: fixed;
-    width: 60px;
-    height: 65px;
+    width: 100px;
+    height: 70px;
     cursor: pointer;
     z-index: 3;
-    margin-left: -80px;
+    margin-left: -40px;
     margin-top: 30px;
   }
 
   .menu__btn > span {
     position: relative;
     height: 5px;
-    width: 42px;
+    width: 60px;
     background-color: #0056EC;
   }
 
@@ -844,7 +844,7 @@ body {
 
   .menu__btn > span::before {
     content: '';
-    top: 8px;
+    top: 20px;
   }
 
   .menu__btn > span::after {
@@ -921,17 +921,17 @@ body {
 
   .main-section {
     text-align: center;
-    background-size: 450px;
+    background-size: 510px;
     background-position: top center;
-    margin-top: -40px;
+    margin-top: -70px;
     margin-right: 0px;
   }
 
   .main-content__title {
-    width: 325px;
-    margin-top: 180px;
+    width: 400px;
+    margin-top: 220px;
     margin-left: 150px;
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .main__title-text_highlight {
@@ -939,24 +939,24 @@ body {
   }
 
   .main-content__subtitle {
-    width: 295px;
+    width: 390px;
     position: sticky;
     margin-left: 150px;
-    margin-top: -85px;
+    margin-top: -65px;
     font-weight: 500;
-    size: 30px;
+    font-size: 25px;
   }
 
   .main__button {
     display: inline-block;
-    font: 16px/20px 'Roboto', arial, helvetica, sans-serif;
+    font: 20px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
     background: #0056EC;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
-    margin-left: 20px;
-    width: 50%;
+    margin-left: 45px;
+    width: 55%;
     height: 40%;
     margin-top: 140px;
   }
