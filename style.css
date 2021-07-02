@@ -354,6 +354,12 @@ body {
   }
 }
 
+@media (max-width: 1228px) {
+  .main-section {
+    margin-right: -50px;
+  }
+}
+
 @media (max-width: 1200px) {
 .main-section {
   background-size: 460px;
@@ -713,6 +719,12 @@ body {
 
   .image-content {
     width: 30%;
+  }
+}
+
+@media (max-width: 788px) {
+  .main-content__title {
+    width: 310px;
   }
 }
 
