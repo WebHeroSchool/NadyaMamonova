@@ -529,6 +529,7 @@ body {
     width: 29%;
     word-spacing: 3px;
     height: 50px;
+    display: inline-flex;
   }
 
   .image-content {
