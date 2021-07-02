@@ -254,6 +254,10 @@ body {
     }
   }
 
+  .image-content {
+    padding-bottom: 20px;
+  }
+
 @media (max-width: 1366px) {
   .logo {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
@@ -572,7 +576,7 @@ body {
   }
 
   .image-content {
-    margin-bottom: 100px;
+    margin-bottom: 52px;
     padding-left: 220px;
   }
 }
