@@ -923,7 +923,7 @@ body {
     text-align: center;
     background-size: 510px;
     background-position: top center;
-    margin-top: -70px;
+    margin-top: 0px;
     margin-right: 0px;
   }
 
@@ -1000,7 +1000,7 @@ body {
     cursor: pointer;
     z-index: 3;
     margin-top: -38px;
-    margin-left: -20px;
+    margin-left: 10px;
   }
 
   .menu__btn > span,
@@ -1074,25 +1074,25 @@ body {
     }
 
     .main-section {
-      background-size: 410px;
+      background-size: 450px;
       margin-top: -20px;
-      margin-right: 40px;
+      margin-right: 0px;
     }
 
   .main-content__title {
     width: 300px;
-    margin-top: 140px;
+    margin-top: 170px;
     margin-left: 70px;
     font-size: 38px;
   }
 
   .main-content__subtitle {
-    width: 275px;
-    font: normal 16px/18px 'Roboto', arial, helvetica, sans-serif;
+    width: 320px;
+    font: normal 20px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
     margin-left: 85px;
     margin-bottom: -90px;
-    margin-top: -122px;
+    margin-top: -112px;
     font-weight: 500;
   }
 
@@ -1103,8 +1103,8 @@ body {
   }
 
   .main__button {
-    width: 67%;
-    margin-top: 100px;
+    width: 75%;
+    margin-top: 120px;
   }
 
   .main__button:hover {
@@ -1131,8 +1131,7 @@ body {
 
   .logoimg {
     height: 35px;
-    padding-top: 10px;
-    padding-right: 250px;
+    padding-top: 50px;
   }
 
   .hamburger-menu {
@@ -1144,7 +1143,8 @@ body {
   }
 
   .menu__btn {
-    padding-left: 190px;
+    padding-left: 230px;
+    padding-top: 15px;
   }
 
   .menu__btn > span::after {
@@ -1157,17 +1157,15 @@ body {
   }
 
     .main-section {
-    background-size: 255px;
-    margin-left: 10px;
+    background-size: 430px;
   }
 
   .main-content__title {
-    margin-top: 2px;
-    font-size: 28px;
+    font-size: 35px;
   }
 
   .main-content__subtitle {
-    padding-top: 10px;
+    margin-left: 60px;
   }
 
   .main__title-text_highlight {
@@ -1179,7 +1177,7 @@ body {
   .main__button {
     margin-left: 60px;
     padding-top: 15px;
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .main__button:hover {
@@ -1193,11 +1191,11 @@ body {
 
 @media (max-width: 559px) {
   .logoimg {
-    padding-right: 160px;
+    padding-left: 20px;
   }
 
   .menu__btn {
-    padding-left: 110px;
+    padding-left: 230px;
   }
 }
 
@@ -1209,7 +1207,6 @@ body {
   .logoimg {
     height: 42px;
     background-size: 40px;
-    margin-left: -170px;
   }
 
   #menu__toggle {
@@ -1219,6 +1216,7 @@ body {
   .menu__btn {
     width: 35px;
     height: 45px;
+    padding-left: 195px;
   }
 
   .menu__btn > span,
@@ -1286,8 +1284,8 @@ body {
   }
 
   .main__button {
-    margin-left: 35px;
-    width: 215px;
+    margin-left: 5px;
+    width: 295px;
     margin-top: 130px;
   }
 
