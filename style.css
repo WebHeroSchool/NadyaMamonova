@@ -844,12 +844,12 @@ body {
 
   .menu__btn > span::before {
     content: '';
-    top: 20px;
+    top: 10px;
   }
 
   .menu__btn > span::after {
     content: '';
-    top: 15px;
+    top: 20px;
   }
 
   .menu__box {
