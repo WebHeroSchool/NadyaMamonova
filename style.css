@@ -344,8 +344,9 @@ body {
   .image-content {
     background: url('img/detail.svg') center no-repeat;
     width: 32px;
-    bottom: -223px;
+    bottom: -100px;
     right: 0px;
+    padding-left: 564px;
   }
 
   .hamburger-menu {
@@ -491,6 +492,10 @@ body {
     margin-left: -114px;
   }
 
+  .logoimg {
+    padding-left: 102px;
+  }
+
   .hamburger-menu {
     display: none;
   }
@@ -528,7 +533,6 @@ body {
 
   .image-content {
     margin-right: -16px;
-    margin-bottom: -4px;
   }
 }
 
