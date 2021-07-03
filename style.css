@@ -1355,6 +1355,7 @@ body {
 
   .main-content__title {
     font-size: 35px;
+    margin-left: 80px;
   }
 
   .main-content__subtitle {
@@ -1508,6 +1509,20 @@ body {
 
   .image-content {
     display: none;
+  }
+}
+
+@media (max-width: 416px) {
+  .main-content__title {
+    margin-left: -20px;
+  }
+
+  .main-content__subtitle {
+    margin-left: -35px;
+  }
+
+  .main__button {
+    margin-left: -20px;
   }
 }
 
