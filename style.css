@@ -1110,6 +1110,12 @@ body {
   }
 }
 
+@media (max-width: 606px) {
+    .main__button {
+    margin-left: 65px;
+    }
+  }
+
 @media (max-width: 600px) {
   .logo {
     display: none;
@@ -1260,7 +1266,7 @@ body {
   .menu__btn > span::after {
     top: 17px;
   }
-  
+
   .main-content__title {
     margin-left: 100px;
   }
