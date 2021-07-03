@@ -1256,6 +1256,20 @@ body {
   }
 }
 
+@media (max-width: 599px) {
+  .menu__btn > span::after {
+    top: 17px;
+  }
+  
+  .main-content__title {
+    margin-left: 100px;
+  }
+
+  .main__button {
+  margin-left: 65px;
+  }
+}
+
 @media (max-width: 560px) {
   .wrapper {
     width: 100%;
