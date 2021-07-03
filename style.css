@@ -542,6 +542,7 @@ body {
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
+    animation-name: move;
   }
 
   .main__button:hover {
@@ -667,6 +668,7 @@ body {
     width: 31%;
     line-height: 0px;
     word-spacing: 3px;
+    animation-name: move;
   }
 
   .image-content {
@@ -791,6 +793,7 @@ body {
     width: 35%;
     line-height: 0px;
     word-spacing: 3px;
+    animation-name: move;
   }
 
   .image-content {
@@ -870,6 +873,7 @@ body {
     width: 41%;
     line-height: 0px;
     word-spacing: 3px;
+    animation-name: move;
   }
 
   .image-content {
