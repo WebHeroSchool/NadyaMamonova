@@ -39,6 +39,8 @@ body {
 .menu {
     display: flex;
     align-items: center;
+    animation-name: first;
+    animation-duration: 2s;
 }
 
 .menu__item {
@@ -1867,4 +1869,14 @@ body {
     .image-content {
       display: none;
     }
+}
+
+@keyframes first {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 100%
+  }
 }
