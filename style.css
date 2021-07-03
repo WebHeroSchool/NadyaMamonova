@@ -659,6 +659,16 @@ body {
   }
 }
 
+@media (max-width: 908px) {
+  .main-section {
+    background-size: 490px;
+  }
+
+  .main-content__title {
+    font-size: 45px;
+  }
+}
+
 @media (max-width: 900px) {
   .main-section {
     background-size: 485px;
@@ -1422,6 +1432,21 @@ body {
 
   .image-content {
     display: none;
+  }
+}
+
+@media (max-width: 381px) {
+  .main-content__title {
+    margin-left: -30px;
+  }
+
+  .main-content__subtitle {
+    margin-left: -45px;
+  }
+
+  .main__button {
+    width: 265px;
+    margin-left: -20px;
   }
 }
 
