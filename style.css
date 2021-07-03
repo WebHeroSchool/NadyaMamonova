@@ -1050,6 +1050,20 @@ body {
   }
 }
 
+@media (max-width: 737px) {
+  .main-content__title {
+    margin-left: 100px;
+  }
+
+  .main-content__subtitle {
+    margin-left: 100px;
+  }
+
+  .main__button {
+    margin-left: 5px;
+  }
+}
+
 @media (max-width: 724px) {
   .main-content__title {
     margin-left: 110px;
@@ -1097,6 +1111,20 @@ body {
 
   .main__button {
     width: 350px;
+  }
+}
+
+@media (max-width: 637px) {
+  .main-content__title {
+    margin-left: 50px;
+  }
+
+  .main-content__subtitle {
+    margin-left: 50px;
+  }
+
+  .main__button {
+    margin-left: 5px;
   }
 }
 
