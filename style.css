@@ -659,6 +659,16 @@ body {
   }
 }
 
+@media (max-width: 900px) {
+  .main-section {
+    background-size: 485px;
+  }
+
+  .main-content__title {
+    font-size: 45px;
+  }
+}
+
 @media (max-width: 892px) {
   .main-section {
     background-size: 474px;
@@ -1064,6 +1074,17 @@ body {
   .main__button {
     width: 350px;
   }
+}
+
+@media (max-width: 615px) {
+  .main-content__title {
+    margin-left: 50px;
+  }
+
+  .main-content__subtitle {
+    margin-left: 50px;
+  }
+}
 
 @media (max-width: 600px) {
   .logo {
