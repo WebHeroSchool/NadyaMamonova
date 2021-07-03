@@ -169,6 +169,12 @@ body {
   .header {
     display: flex;
     justify-content: space-between;
+    padding-left: 60px;
+  }
+
+  .logoimg {
+    height: 45px;
+    width: 40px;
   }
 
   .logo {
@@ -183,6 +189,10 @@ body {
 
   .hamburger-menu {
     display: none;
+  }
+
+  .menu {
+    padding-right: 150px;
   }
 
   .menu__item {
@@ -227,10 +237,12 @@ body {
   .main-section {
       background: url(img/mainlmg.svg) no-repeat;
       background-position: right;
+      margin-right: 100px;
   }
 
   .main-content {
     width: 50%;
+    padding-left: 60px;
   }
 
   .main-content__title {
