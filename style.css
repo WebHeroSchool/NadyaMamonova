@@ -1463,6 +1463,20 @@ body {
   }
 }
 
+@media (max-width: 402px) {
+  .main-content__title {
+    margin-left: -30px;
+  }
+
+  .main-content__subtitle {
+    margin-left: -40px;
+  }
+
+  .main__button {
+    margin-left: -30px;
+  }
+}
+
 @media (max-width: 381px) {
   .main-content__title {
     margin-left: -30px;
