@@ -40,7 +40,7 @@ body {
     display: flex;
     align-items: center;
     animation-name: first;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
 .menu__item {
@@ -130,10 +130,12 @@ body {
     transition: opacity .5s;
     margin: 37px -10px 9px 4px;
     height: 63px;
+    transition-duration: 0.4s
+    animation name: two;
   }
 
 .main__button:hover {
-  opacity: .5;
+  opacity: .2;
 }
 
 .image-content {
@@ -1878,5 +1880,17 @@ body {
   100% {
     transform: translateX(100%);
     opacity: 100%
+  }
+}
+
+@@keyframes two {
+  0% {
+   color: blue;
+ }
+ 50% {
+   color: yellow;
+ }
+ 100% {
+   color: green;
   }
 }
