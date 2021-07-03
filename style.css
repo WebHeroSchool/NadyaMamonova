@@ -335,10 +335,14 @@ body {
     font: 12px/16px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
     background: #0056EC;
-    height: 52px;
-    margin-top: 121px;
-    line-height: 0px;
-    width: 216px;
+    height: 50px;
+    margin-top: 125px;
+    line-height: 2px;
+    width: 215px;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 25px;
   }
 
   .main__button:hover {
@@ -997,6 +1001,28 @@ body {
   }
 }
 
+@media (max-width: 710px) {
+  .logoimg {
+    margin-left: -55px;
+  }
+
+  .menu__btn {
+    margin-left: 0px;
+  }
+
+  .main-content__title {
+    margin-left: 100px;
+  }
+
+  .main-content__subtitle {
+    margin-left: 100px;
+  }
+
+  .main__button {
+    width: 60%;
+  }
+}
+
 @media (max-width: 700px) {
   .main-content__title {
     margin-left: 90px;
@@ -1403,11 +1429,13 @@ body {
   .menu__btn > span::before {
     content: '';
     top: 8px;
+    width: 24px;
   }
 
   .menu__btn > span::after {
     content: '';
     top: 14px;
+    width: 24px;
   }
 
   .menu__box {
@@ -1518,7 +1546,7 @@ body {
 
   .main__button {
     display: inline-block;
-    font: 12px 'Roboto', arial, helvetica, sans-serif;
+    font: 14px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
     background: #0056EC;
     text-decoration: none;
@@ -1526,7 +1554,9 @@ body {
     transition: opacity .5s;
     margin-top: 114px;
     margin-left: -31px;
-    width: 213px;
+    width: 214px;
+    padding-left: 1px;
+    padding-right: 10px;
   }
 
   .main__button:hover {
