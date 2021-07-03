@@ -131,7 +131,7 @@ body {
     margin: 37px -10px 9px 4px;
     height: 63px;
     transition-duration: 0.4s
-    animation name: two;
+    animation-name: two;
   }
 
 .main__button:hover {
@@ -1883,7 +1883,7 @@ body {
   }
 }
 
-@@keyframes two {
+@keyframes two {
   0% {
    color: blue;
  }
