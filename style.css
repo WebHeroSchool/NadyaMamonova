@@ -1505,8 +1505,8 @@ body {
     height: 40px;
     cursor: pointer;
     z-index: 3;
-    margin-left: -80px;
-    margin-top: -54px;
+    margin-left: -50px;
+    margin-top: -49px;
   }
 
   .menu__btn > span,
@@ -1650,6 +1650,7 @@ body {
     width: 214px;
     padding-left: 1px;
     padding-right: 10px;
+    height: 20px;
   }
 
   .main__button:hover {
