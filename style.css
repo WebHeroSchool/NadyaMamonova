@@ -1114,6 +1114,12 @@ body {
   }
 }
 
+@media (max-width: 640px) {
+  .main__button {
+    margin-left: 85px;
+  }
+}
+
 @media (max-width: 637px) {
   .main__button {
     margin-left: 5px;
