@@ -583,8 +583,8 @@ body {
   }
 
   .image-content {
-    margin-bottom: 52px;
-    padding-left: 220px;
+    padding-right: 405px;
+    padding-top: 157px;
   }
 }
 
@@ -1373,6 +1373,24 @@ body {
 
   .image-content {
     display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .menu__btn {
+    padding-left: 165px;
+  }
+
+  .main-content__title {
+    margin-left: -35px;
+  }
+
+  .main-content__subtitle {
+    margin-left: -45px;
+  }
+
+  .main__button {
+    margin-left: -30px;
   }
 }
 
