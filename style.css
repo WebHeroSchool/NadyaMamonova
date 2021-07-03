@@ -144,6 +144,16 @@ body {
   padding-left: 735px;
   }
 
+  @media (max-width: 1488px) {
+    .main-section {
+      background-size: 680px;
+    }
+
+    .image-content {
+      padding-right: 460px;
+    }
+  }
+
 @media (max-width: 1480px) {
   .wrapper {
     width: 100%;
@@ -252,10 +262,10 @@ body {
   .main__button:hover {
     opacity: .5;
     }
-  }
 
   .image-content {
     padding-bottom: 20px;
+    }
   }
 
 @media (max-width: 1366px) {
@@ -646,6 +656,24 @@ body {
   .image-content {
     padding-right: 660px;
     padding-top: 120px;
+  }
+}
+
+@media (max-width: 892px) {
+  .main-section {
+    background-size: 474px;
+  }
+
+  .main-content__title {
+    font-size: 45px;
+  }
+
+  .main-content__subtitle {
+      width: 300px;
+  }
+
+  .image-content {
+    padding-right: 460px;
   }
 }
 
