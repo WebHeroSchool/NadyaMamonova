@@ -40,6 +40,7 @@ body {
     display: flex;
     align-items: center;
     animation-duration: 1s;
+    animation-name: first;
 }
 
 .menu__item {
@@ -129,8 +130,9 @@ body {
     transition: opacity .5s;
     margin: 37px -10px 9px 4px;
     height: 63px;
-    transition-duration: 0.4s
-    animation-name: first;
+    transition-duration: 0.4s;
+    animation: animate_motion 5s 0s both infinite;
+    animation-name: move;
   }
 
 .main__button:hover {
@@ -294,6 +296,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 10px;
+    animation-name: first;
   }
 
   .menu__item {
@@ -568,6 +571,7 @@ body {
 
   .menu {
   margin-right: -126px;
+  animation-name: first;
   }
 
   .menu__item {
@@ -1880,4 +1884,16 @@ body {
     transform: translateX(100%);
     opacity: 100%
   }
+}
+
+@keyframes move {
+	0%, 20% {
+		transform: translate3d(0, 0, 0);
+	}
+	10%, 14%, 18%, 2%, 6% {
+		transform: translate3d(-7px, 0, 0);
+	}
+	12%, 16%, 4%, 8% {
+		transform: translate3d(7px, 0, 0);
+	}
 }
