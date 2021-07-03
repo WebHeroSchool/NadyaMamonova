@@ -1115,12 +1115,18 @@ body {
 }
 
 @media (max-width: 637px) {
+  .main__button {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 637px) {
   .main-content__title {
     margin-left: 50px;
   }
 
   .main-content__subtitle {
-    margin-left: 50px;
+    margin-left: 85px;
   }
 
   .main__button {
