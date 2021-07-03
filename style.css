@@ -135,11 +135,11 @@ body {
     animation-name: move;
   }
 
-.main__button:hover {
+  .main__button:hover {
   opacity: .2;
-}
+  }
 
-.image-content {
+  .image-content {
   background: url(img/detail.svg) center no-repeat;
   position: absolute;
   width: 32px;
@@ -262,6 +262,7 @@ body {
       text-decoration: none;
       border-radius: 4px;
       transition: opacity .5s;
+      animation-name: move;
     }
 
   .main__button:hover {
@@ -360,6 +361,7 @@ body {
     padding-right: 10px;
     padding-top: 20px;
     padding-bottom: 25px;
+    animation-name: move;
   }
 
   .main__button:hover {
@@ -603,6 +605,7 @@ body {
     display: inline-flex;
     margin-top: 125px;
     padding-left: 20px;
+    animation-name: move;
   }
 
   .image-content {
@@ -1052,6 +1055,7 @@ body {
     width: 55%;
     height: 40%;
     margin-top: 140px;
+    animation-name: move;
   }
 
   .main__button:hover {
@@ -1781,6 +1785,7 @@ body {
     padding-left: 1px;
     padding-right: 10px;
     height: 20px;
+    animation-name: move;
   }
 
   .main__button:hover {
