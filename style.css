@@ -332,7 +332,7 @@ body {
 
   .main__button {
     display: inline-block;
-    font: 12px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
     background: #0056EC;
     height: 50px;
@@ -352,9 +352,8 @@ body {
   .image-content {
     background: url('img/detail.svg') center no-repeat;
     width: 32px;
-    bottom: -100px;
-    right: 0px;
-    padding-left: 564px;
+    padding-left: 140px;
+    padding-top: 260px;
   }
 
   .hamburger-menu {
