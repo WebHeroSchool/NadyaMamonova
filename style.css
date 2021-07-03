@@ -39,7 +39,6 @@ body {
 .menu {
     display: flex;
     align-items: center;
-    animation-name: first;
     animation-duration: 1s;
 }
 
@@ -131,7 +130,7 @@ body {
     margin: 37px -10px 9px 4px;
     height: 63px;
     transition-duration: 0.4s
-    animation-name: two;
+    animation-name: first;
   }
 
 .main__button:hover {
@@ -1880,17 +1879,5 @@ body {
   100% {
     transform: translateX(100%);
     opacity: 100%
-  }
-}
-
-@keyframes two {
-  0% {
-   color: blue;
- }
- 50% {
-   color: yellow;
- }
- 100% {
-   color: green;
   }
 }
