@@ -568,16 +568,18 @@ body {
   .main-content__subtitle {
     margin-left: -118px;
     width: 367px;
+    padding-top: 2px;
   }
 
   .main__button {
     margin-left: -118px;
-    font-size: 12px;
+    font-size: 14px;
     width: 29%;
     word-spacing: 3px;
     height: 50px;
     display: inline-flex;
     margin-top: 125px;
+    padding-left: 20px;
   }
 
   .image-content {
