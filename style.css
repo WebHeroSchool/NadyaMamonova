@@ -283,7 +283,6 @@ body {
   .main-content__subtitle {
       width: 455px;
       font: 500 22px/26px 'Roboto', arial, helvetica, sans-serif;
-      letter-spacing: 0.2px;
       font-weight: normal;
       letter-spacing: 0.2px;
     }
@@ -307,12 +306,6 @@ body {
   .image-content {
     padding-bottom: 20px;
     padding-right: 650px;
-    }
-  }
-
-  @media (max-width: 1384px) {
-    .main-section {
-      background-size: 56%;
     }
   }
 
@@ -429,20 +422,11 @@ body {
   }
 }
 
-@media (max-width: 1237px) {
-.header {
-  margin-left: -90px;
-}
-
-.main-content {
-  margin-left: -80px;
-  }
-}
-
 @media (max-width: 1228px) {
   .main-section {
     margin-right: -50px;
   }
+
 .image-content {
   padding-bottom: 160px;
   }
@@ -467,6 +451,7 @@ body {
   .image-content {
     padding-left: 40px;
   }
+}
 
 @media (max-width: 1085px) {
   .main-section {
@@ -510,14 +495,14 @@ body {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     height: 35px;
     position: absolute;
-    padding-left: 100px;
+    padding-left: 50px;
   }
 
   .logoimg {
     height: 35px;
     width: 35px;
     background: center no-repeat url(img/logo.svg);
-    padding-left: 200px;
+    padding-left: 120px;
   }
 
   #menu__toggle {
@@ -578,7 +563,7 @@ body {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
     background-size: 50%;
-    padding-left: 110px;
+    padding-left: 60px;
     margin-right: 60px;
   }
 
@@ -657,19 +642,19 @@ body {
   }
 
   .main-content__title {
-    margin-left: -36px;
+    margin-left: -116px;
     font-size: 50px;
     margin-top: -84px;
   }
 
   .main-content__subtitle {
-    margin-left: -37px;
+    margin-left: -118px;
     width: 367px;
     padding-top: 26px;
   }
 
   .main__button {
-    margin-left: -38px;
+    margin-left: -118px;
     font-size: 14px;
     width: 29%;
     word-spacing: 3px;
@@ -691,12 +676,13 @@ body {
   .wrapper {
     width: 100%;
   }
+
   .header {
-    padding-left: 100px;
+    margin-left: 160px;
   }
 
   .logo {
-  padding-left: 50px;
+    margin-left: -70px;
   }
 
   .hamburger-menu {
@@ -716,10 +702,6 @@ body {
     margin-top: -194px;
     margin-right: 47px;
     background-size: 514px;
-  }
-
-.main-content {
-  padding-left: 50px;
   }
 
   .main-content__title {
@@ -750,11 +732,6 @@ body {
   }
 }
 
-@media (max-width: 917px) {
-  .main-section {
-    margin-right: -30px;
-  }
-}
 
 @media (max-width: 908px) {
   .main-section {
@@ -786,7 +763,7 @@ body {
   }
 
   .main-content__subtitle {
-      width: 350px;
+      width: 300px;
   }
 
   .image-content {
@@ -807,12 +784,6 @@ body {
 
   .image-content {
     padding-bottom: 0px;
-    }
-  }
-
-  @media (max-width: 868px) {
-    .main-content__subtitle {
-      width: 350px;
     }
   }
 
@@ -854,7 +825,7 @@ body {
   .main-content__subtitle {
     margin-left: -57px;
     width: 367px;
-    margin-top: -140px;
+    margin-top: -100px;
     font: 15px 'Roboto', arial, helvetica, sans-serif;
   }
 
@@ -894,7 +865,12 @@ body {
   }
 
   .logo {
+    margin-left: -70px;
     font-size: 18px;
+  }
+
+  .logoimg {
+      margin-left: -118px;
   }
 
   .hamburger-menu {
@@ -926,7 +902,7 @@ body {
   .main-content__subtitle {
     margin-left: -57px;
     width: 367px;
-    margin-top: -140px;
+    margin-top: -100px;
     font: 15px 'Roboto', arial, helvetica, sans-serif;
   }
 
@@ -964,7 +940,7 @@ body {
       height: 70px;
       background-size: 70px;
       width: 60px;
-      margin-left: -105px;
+      margin-left: -15px;
   }
 
   #menu__toggle {
@@ -1095,7 +1071,7 @@ body {
   .main-content__title {
     width: 400px;
     margin-top: 220px;
-    margin-left: 100px;
+    margin-left: 150px;
     font-size: 50px;
   }
 
@@ -1106,7 +1082,7 @@ body {
   .main-content__subtitle {
     width: 390px;
     position: sticky;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: -65px;
     font-weight: 500;
     font-size: 25px;
@@ -1395,17 +1371,11 @@ body {
   }
 
   .main-content__title {
-    margin-left: 100px;
+    margin-left: 80px;
   }
 
   .main__button {
   margin-left: 65px;
-  }
-}
-
-@media (max-width: 560px) {
-.main-content__title {
-  margin-left: 80px;
   }
 }
 
@@ -1716,7 +1686,7 @@ body {
     cursor: pointer;
     z-index: 3;
     margin-left: -50px;
-    margin-top: -50px;
+    margin-top: -55px;
   }
 
   .menu__btn > span,
