@@ -510,14 +510,14 @@ body {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     height: 35px;
     position: absolute;
-    padding-left: 50px;
+    padding-left: 100px;
   }
 
   .logoimg {
     height: 35px;
     width: 35px;
     background: center no-repeat url(img/logo.svg);
-    padding-left: 120px;
+    padding-left: 200px;
   }
 
   #menu__toggle {
@@ -578,7 +578,7 @@ body {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
     background-size: 50%;
-    padding-left: 60px;
+    padding-left: 110px;
     margin-right: 60px;
   }
 
@@ -692,15 +692,11 @@ body {
     width: 100%;
   }
   .header {
-    margin-left: 160px;
+    padding-left: 100px;
   }
 
   .logo {
-    margin-left: -70px;
-  }
-
-  .logoimg {
-    margin-left: -112px;
+  padding-left: 50px;
   }
 
   .hamburger-menu {
@@ -720,6 +716,10 @@ body {
     margin-top: -194px;
     margin-right: 47px;
     background-size: 514px;
+  }
+
+.main-content {
+  padding-left: 50px;
   }
 
   .main-content__title {
