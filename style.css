@@ -24,7 +24,7 @@ body {
 
 .logoimg {
   height: 35px;
-  width: 35px;
+  width: 40px;
   background: center no-repeat url(img/logo.svg);
 }
 
@@ -160,6 +160,13 @@ body {
   padding-top: 265px;
   padding-left: 735px;
   }
+}
+
+@media (max-width: 1512px) {
+  .main-section {
+    background-size: 58%;
+  }
+}
 
   @media (max-width: 1510px) {
     .main-section {
