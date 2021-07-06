@@ -685,6 +685,10 @@ body {
     margin-left: -70px;
   }
 
+  .logoimg {
+    margin-left: -112px;
+  }
+
   .hamburger-menu {
     display: none;
   }
