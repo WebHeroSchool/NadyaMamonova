@@ -657,19 +657,19 @@ body {
   }
 
   .main-content__title {
-    margin-left: -116px;
+    margin-left: -36px;
     font-size: 50px;
     margin-top: -84px;
   }
 
   .main-content__subtitle {
-    margin-left: -118px;
+    margin-left: -37px;
     width: 367px;
     padding-top: 26px;
   }
 
   .main__button {
-    margin-left: -118px;
+    margin-left: -38px;
     font-size: 14px;
     width: 29%;
     word-spacing: 3px;
