@@ -656,7 +656,7 @@ body {
   }
 
   .main-content__title {
-    margin-left: -116px;
+    margin-left: -121px;
     font-size: 50px;
     margin-top: -84px;
   }
@@ -1727,7 +1727,7 @@ body {
     cursor: pointer;
     z-index: 3;
     margin-left: -50px;
-    margin-top: -55px;
+    margin-top: -52px;
   }
 
   .menu__btn > span,
@@ -1837,7 +1837,7 @@ body {
     width: 267px;
     font-family: 'pt_serifbold', arial, helvetica, sans-serif;
     margin-top: 22px;
-    margin-left: -55px;
+    margin-left: -60px;
     font-size: 30px;
   }
 
@@ -1845,7 +1845,7 @@ body {
     width: 275px;
     font: normal 16px/18px 'Roboto', arial, helvetica, sans-serif;
     position: sticky;
-    margin-left: -51px;
+    margin-left: -58px;
     margin-bottom: -90px;
     margin-top: -172px;
     font-weight: 500;
@@ -1867,7 +1867,7 @@ body {
     border-radius: 4px;
     transition: opacity .5s;
     margin-top: 112px;
-    margin-left: -31px;
+    margin-left: -37px;
     width: 214px;
     padding-left: 1px;
     padding-right: 10px;
