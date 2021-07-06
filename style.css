@@ -1398,6 +1398,12 @@ body {
 }
 
 @media (max-width: 560px) {
+.main-content__title {
+  margin-left: 80px;
+  }
+}
+
+@media (max-width: 560px) {
   .wrapper {
     width: 100%;
     }
