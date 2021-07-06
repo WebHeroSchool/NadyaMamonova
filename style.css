@@ -318,10 +318,14 @@ body {
     width: 69%;
   }
 
+  .header {
+    padding-left: 0px;
+  }
+
   .menu {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    padding-right: 0px;
   }
 
   .menu__item {
@@ -348,6 +352,10 @@ body {
     margin-top: -155px;
     margin-right: 5px;
     background-size: 514px;
+  }
+
+  .main-content {
+    padding-left: 0px;
   }
 
   .main-content__title {
