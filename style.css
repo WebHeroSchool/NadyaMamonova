@@ -429,6 +429,16 @@ body {
   }
 }
 
+@media (max-width: 1237px) {
+.header {
+  margin-left: -90px;
+}
+
+.main-content {
+  margin-left: -80px;
+  }
+}
+
 @media (max-width: 1228px) {
   .main-section {
     margin-right: -50px;
@@ -737,6 +747,16 @@ body {
   .image-content {
     padding-right: 660px;
     padding-top: 120px;
+  }
+}
+
+@media (max-width: 917px) {
+  .header {
+    margin-left: 90px;
+  }
+
+  .main-section {
+    margin-right: -30px;
   }
 }
 
