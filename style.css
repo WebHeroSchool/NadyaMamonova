@@ -742,6 +742,12 @@ body {
   }
 }
 
+@media (max-width: 920px) {
+  .main-section {
+    background-size: 470px;
+  }
+}
+
 @media (max-width: 917px) {
   .main-section {
     margin-right: -30px;
@@ -778,7 +784,7 @@ body {
   }
 
   .main-content__subtitle {
-      width: 300px;
+      width: 350px;
   }
 
   .image-content {
