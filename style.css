@@ -751,10 +751,6 @@ body {
 }
 
 @media (max-width: 917px) {
-  .header {
-    margin-left: 90px;
-  }
-
   .main-section {
     margin-right: -30px;
   }
