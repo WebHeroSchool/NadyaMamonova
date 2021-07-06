@@ -161,6 +161,16 @@ body {
   padding-left: 735px;
   }
 
+  @media (max-width: 1510px) {
+    .main-section {
+      background-size: 58%;
+    }
+
+    .image-content {
+      padding-left: 305px;
+    }
+  }
+
   @media (max-width: 1488px) {
     .main-section {
       background-size: 680px;
@@ -459,6 +469,12 @@ body {
 
   .image-content {
     padding-left: 20px;
+    }
+  }
+
+  @media (max-width: 1075px) {
+    .main-section {
+      margin-right: -50px;
     }
   }
 
