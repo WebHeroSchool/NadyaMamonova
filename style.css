@@ -342,6 +342,7 @@ body {
     display: flex;
     align-items: center;
     padding-right: 0px;
+    margin-right: -25px;
   }
 
   .menu__item {
@@ -365,13 +366,13 @@ body {
   .main-section {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
-    margin-top: -155px;
-    margin-right: 5px;
+    margin-top: -153px;
+    margin-right: -27px;
     background-size: 514px;
   }
 
   .main-content {
-    padding-left: 0px;
+    padding-left: 6px;
   }
 
   .main-content__title {
