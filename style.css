@@ -135,6 +135,18 @@ body {
     animation-name: move;
   }
 
+  @keyframes move {
+  	0%, 20% {
+  		transform: translate3d(0, 0, 0);
+  	}
+  	10%, 14%, 18%, 2%, 6% {
+  		transform: translate3d(-7px, 0, 0);
+  	}
+  	12%, 16%, 4%, 8% {
+  		transform: translate3d(7px, 0, 0);
+  	}
+  }
+
   .main__button:hover {
   opacity: .2;
   }
@@ -1903,16 +1915,4 @@ body {
     .image-content {
       display: none;
     }
-}
-
-@keyframes move {
-	0%, 20% {
-		transform: translate3d(0, 0, 0);
-	}
-	10%, 14%, 18%, 2%, 6% {
-		transform: translate3d(-7px, 0, 0);
-	}
-	12%, 16%, 4%, 8% {
-		transform: translate3d(7px, 0, 0);
-	}
 }
