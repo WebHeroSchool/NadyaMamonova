@@ -310,6 +310,12 @@ body {
     }
   }
 
+  @media (max-width: 1384px) {
+    .main-section {
+      background-size: 56%;
+    }
+  }
+
 @media (max-width: 1366px) {
   .logo {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
@@ -789,6 +795,12 @@ body {
 
   .image-content {
     padding-bottom: 0px;
+    }
+  }
+
+  @media (max-width: 868px) {
+    .main-content__subtitle {
+      width: 350px;
     }
   }
 
@@ -1710,7 +1722,7 @@ body {
     cursor: pointer;
     z-index: 3;
     margin-left: -50px;
-    margin-top: -55px;
+    margin-top: -50px;
   }
 
   .menu__btn > span,
