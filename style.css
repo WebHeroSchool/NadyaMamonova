@@ -1279,7 +1279,7 @@ body {
 
   .menu__btn > span::after {
     content: '';
-    top: 14px;
+    top: 19px;
   }
 
   .menu {
@@ -1489,6 +1489,12 @@ body {
   }
 }
 
+@media (max-width: 508px) {
+  .main-content__title {
+    margin-left: 40px;
+  }
+}
+
 @media (max-width: 502px) {
   .main-content__title {
     margin-left: 50px;
@@ -1599,6 +1605,12 @@ body {
 
   .image-content {
     display: none;
+  }
+}
+
+@media (max-width: 468px) {
+  .main-content__title {
+    margin-left: 0px;
   }
 }
 
