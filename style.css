@@ -406,9 +406,9 @@ body {
     width: 215px;
     padding-left: 1px;
     padding-right: 15px;
-    padding-top: 20px;
+    padding-top: 23px;
     padding-bottom: 25px;
-    margin-left: 0px;
+    margin-left: -2px;
     cursor: pointer;
     animation-name: move;
   }
