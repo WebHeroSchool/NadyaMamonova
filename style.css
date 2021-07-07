@@ -85,8 +85,7 @@ body {
 }
 
 .main-content__title {
-   font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-   font: bold 66px/87px;
+   font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;;
    margin-bottom: 46px;
  }
 
