@@ -85,14 +85,9 @@ body {
 }
 
 .main-content__title {
-   height: 255px;
    font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 66px;
+   font: bold 66px/87px;
    margin-bottom: 46px;
-   margin-top: -102px;
-   margin-left: 4px;
  }
 
 .main__title-text_highlight {
