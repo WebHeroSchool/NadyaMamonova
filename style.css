@@ -45,7 +45,7 @@ body {
 .menu__item {
     position: relative;
     margin-right: 26px;
-    font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
@@ -226,7 +226,7 @@ body {
 
   .menu__item {
       position: relative;
-      font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
+      font: 500 normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
       color: #000;
       text-decoration: none;
       transition: opacity .5s;
@@ -348,7 +348,7 @@ body {
   .menu__item {
     position: relative;
     margin-top: 5px;
-    font: bold 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
@@ -535,7 +535,7 @@ body {
   .menu__item {
     position: relative;
     margin-right: 26px;
-    font: bold 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
@@ -647,7 +647,7 @@ body {
   }
 
   .menu__item {
-    font: bold normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
   .main-section {
@@ -712,7 +712,7 @@ body {
   }
 
   .menu__item {
-    font: bold normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
     margin-top: 4px;
   }
 
@@ -834,7 +834,7 @@ body {
   }
 
   .menu__item {
-    font: bold normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
     margin-top: 4px;
   }
 
@@ -911,7 +911,7 @@ body {
   }
 
   .menu__item {
-    font: bold normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
     margin-top: 4px;
   }
 
