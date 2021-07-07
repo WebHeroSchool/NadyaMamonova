@@ -14,10 +14,6 @@ body {
   margin-bottom: 100px;
 }
 
-.logo-box {
-  display: flex;
-}
-
 .logo {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     height: 35px;
