@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  overflow: hidden;
 }
 
 .wrapper {
@@ -18,8 +17,7 @@ body {
 .logo {
     font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
     height: 35px;
-    position: absolute;
-    margin-left: 49px;
+    padding-left: 49px;
 }
 
 .logoimg {
