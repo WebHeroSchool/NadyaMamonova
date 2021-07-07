@@ -78,14 +78,10 @@ body {
   width: 100%;
 }
 
-.main-section {
+.main-content {
     background: url(img/mainlmg.svg) no-repeat;
     background-position: right;
     padding: 0 55% 180px 0px;
-}
-
-.main-content {
-  width: 50%;
 }
 
 .main-content__title {
