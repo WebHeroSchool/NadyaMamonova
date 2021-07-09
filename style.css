@@ -136,12 +136,8 @@ body {
 
   .image-content {
   background: url(img/detail.svg) center no-repeat;
-  position: absolute;
   width: 32px;
-  padding-bottom: 265px;
-  padding-right: 770px;
-  padding-top: 265px;
-  padding-left: 735px;
+  height: 10px;
   }
 }
 
