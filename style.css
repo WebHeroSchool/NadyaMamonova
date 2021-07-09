@@ -79,8 +79,9 @@ body {
 }
 
 .main-content {
-    background: no-repeat right 5px center url(img/mainlmg.svg);
-    padding: 0 55% 180px 0px;
+  background: no-repeat right 5px center url(img/mainlmg.svg);
+  padding: 0 55% 180px 0px;
+  margin-bottom: 85px;
 }
 
 .main-content__title {
@@ -135,12 +136,11 @@ body {
   }
 
   .image-content {
-  background: url(img/detail.svg) center no-repeat;
-  display: flex;
-  margin: auto;
-  padding-top: 170px;
-  width: 32px;
-  height: 10px;
+    background: url(img/detail.svg) center no-repeat;
+    display: flex;
+    margin: auto;
+    width: 32px;
+    height: 10px;
   }
 
 @media (max-width: 1512px) {
