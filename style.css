@@ -79,7 +79,7 @@ body {
 }
 
 .main-content {
-    background: no-repeat right url(img/mainlmg.svg);
+    background: no-repeat right 5px center url(img/mainlmg.svg);
     padding: 0 55% 180px 0px;
 }
 
