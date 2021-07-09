@@ -88,7 +88,7 @@ body {
    font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;;
    margin-top: 0;
    padding-top: 101px;
-   margin-bottom: 46px;
+   margin-bottom: 37px;
  }
 
 .main__title-text_highlight {
@@ -103,7 +103,7 @@ body {
     letter-spacing: 0.2px;
   }
 
-  .main__button {
+  .main-content__button {
     display: inline-block;
     font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
@@ -115,11 +115,12 @@ body {
     margin: 37px -10px 9px 4px;
     height: 63px;
     transition-duration: 0.4s;
-    animation: animate_motion 5s 0s both infinite;
+    animation: animate_motion 5s 0s both 1;
     cursor: pointer;
     animation-name: move;
   }
 
+/*
   @keyframes move {
   	0%, 20% {
   		transform: translate3d(0, 0, 0);
@@ -131,8 +132,9 @@ body {
   		transform: translate3d(7px, 0, 0);
   	}
   }
+  */
 
-  .main__button:hover {
+  .main-content__button:hover {
   opacity: .2;
   }
 
