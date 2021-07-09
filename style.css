@@ -79,15 +79,14 @@ body {
 }
 
 .main-content {
-    background: url(img/mainlmg.svg) no-repeat;
-    background-position: right;
+    background: no-repeat right url(img/mainlmg.svg);
     padding: 0 55% 180px 0px;
 }
 
 .main-content__title {
    font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;;
    margin-top: 0;
-   padding-top: 101px;
+   padding-top: 116px;
    margin-bottom: 37px;
  }
 
