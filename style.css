@@ -92,8 +92,7 @@ body {
  }
 
 .main__title-text_highlight {
-   background: #ECF3FF;
-   background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
+   background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
    margin-right: -15px;
  }
 
