@@ -98,22 +98,19 @@ body {
 
 .main-content__subtitle {
     width: 455px;
-    font: normal 22px/26px 'Roboto', arial, helvetica, sans-serif;
-    margin-bottom: -4px;
-    letter-spacing: 0.2px;
+    font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
+    margin-bottom: 35px;
   }
 
   .main-content__button {
     display: inline-block;
-    font: 18px/21px 'Roboto', arial, helvetica, sans-serif;
+    font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
     color: #FFFFFF;
     background: #0056EC;
     padding: 24px 38px 16px 20px;
     text-decoration: none;
     border-radius: 4px;
     transition: opacity .5s;
-    margin: 37px -10px 9px 4px;
-    height: 63px;
     transition-duration: 0.4s;
     animation: animate_motion 5s 0s both 1;
     cursor: pointer;
