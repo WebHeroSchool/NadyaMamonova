@@ -186,23 +186,9 @@ body {
     margin-bottom: 40px;
   }
 
-  .main__title-text_highlight {
-    background: #ECF3FF;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
-  }
-
   .main-content__button {
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
     padding: 14px 23px 14px 15px;
-  }
-
-  .main__button:hover {
-    opacity: .5;
-  }
-
-  .image-content {
-    background: url('img/detail.svg') center no-repeat;
-    width: 32px;
   }
 }
 
