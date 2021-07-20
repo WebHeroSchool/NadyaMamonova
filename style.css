@@ -169,8 +169,8 @@ body {
 
   .main-content {
     padding-left: 7px;
-    background-size: 54%;
     background: no-repeat right 9px top 82px url(img/mainlmg.svg);
+    background-size: 54%;
   }
 
   .main-content__title {
