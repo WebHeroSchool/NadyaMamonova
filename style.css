@@ -174,42 +174,19 @@ body {
   }
 
   .main-content__title {
-    width: 520px;
-    font-family: 'pt_serifbold', arial, helvetica, sans-serif;
-    margin-top: -86px;
     font-size: 50px;
-    margin-left: 0px;
+    line-height: 66px;
+    padding-top: 11px;
   }
 
   .main-content__subtitle {
     width: 367px;
     font: normal 18px/21px 'Roboto', arial, helvetica, sans-serif;
-    margin-bottom: -85px;
-    margin-top: -65px;
   }
 
   .main__title-text_highlight {
     background: #ECF3FF;
     background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
-    margin-right: -15px;
-  }
-
-  .main__button {
-    display: inline-block;
-    font: 14px/16px 'Roboto', arial, helvetica, sans-serif;
-    color: #FFFFFF;
-    background: #0056EC;
-    height: 50px;
-    margin-top: 125px;
-    line-height: 2px;
-    width: 215px;
-    padding-left: 1px;
-    padding-right: 15px;
-    padding-top: 23px;
-    padding-bottom: 25px;
-    margin-left: -2px;
-    cursor: pointer;
-    animation-name: move;
   }
 
   .main__button:hover {
@@ -219,8 +196,6 @@ body {
   .image-content {
     background: url('img/detail.svg') center no-repeat;
     width: 32px;
-    padding-left: 260px;
-    padding-top: 260px;
   }
 }
 
