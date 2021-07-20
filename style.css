@@ -157,19 +157,9 @@ body {
     width: 69%;
   }
 
-  .menu {
-    display: flex;
-    align-items: center;
-    padding-right: 0px;
-  }
-
   .menu__item {
-    position: relative;
-    margin-top: 5px;
+    padding-top: 4px;
     font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
-    color: #000;
-    text-decoration: none;
-    transition: opacity .5s;
   }
 
   .menu__item:hover:after, .menu__item_active {
@@ -241,10 +231,6 @@ body {
     width: 32px;
     padding-left: 260px;
     padding-top: 260px;
-  }
-
-  .hamburger-menu {
-    display: none;
   }
 }
 
