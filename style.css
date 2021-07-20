@@ -162,13 +162,9 @@ body {
     font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  .menu__item:hover:after, .menu__item_active {
-      opacity: 1;
-      width: 100%;
-  }
-
-  .menu__item:last-child {
-    white-space: nowrap;
+  .menu__item_active::after {
+  opacity: 1;
+  width: 100%;
   }
 
   .main-content {
