@@ -171,7 +171,7 @@ body {
     padding-left: 7px;
     background: no-repeat right 9px top -3px url(img/mainlmg.svg);
     background-size: 54%;
-    padding-bottom: 50px;
+    padding-bottom: 58px;
   }
 
   .main-content__title {
@@ -193,7 +193,7 @@ body {
 
   .main-content__button {
     font: 500 14px/16px 'Roboto', arial, helvetica, sans-serif;
-    padding: 14px 17px 15px 22px;
+    padding: 14px 23px 14px 15px;
   }
 
   .main__button:hover {
