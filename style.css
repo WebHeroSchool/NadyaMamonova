@@ -171,16 +171,10 @@ body {
     white-space: nowrap;
   }
 
-  .main-section {
-    background: url(img/mainlmg.svg) no-repeat;
-    background-position: right;
-    margin-top: -153px;
-    margin-right: 0px;
-    background-size: 56%;
-  }
-
   .main-content {
     padding-left: 7px;
+    background-size: 54%;
+    background: no-repeat right 9px top 82px url(img/mainlmg.svg);
   }
 
   .main-content__title {
