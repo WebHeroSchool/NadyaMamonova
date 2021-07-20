@@ -146,8 +146,6 @@ body {
 
 @media (max-width: 1366px) {
   .logo {
-    font: bold 24px/31px 'pt_serifbold', arial, sans-serif;
-    position: absolute;
     padding-left: 40px;
   }
 
