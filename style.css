@@ -315,19 +315,29 @@ body {
   }
 
   .main-content {
-    padding: 78% 0 0 0;
+    padding: 78.6% 0 0 0;
     background: no-repeat center top 9px url(img/mainlmg.svg);
     background-size: 86%;
+    text-align: center;
+    margin-bottom: 0;
   }
 
   .main-content__title {
     font-size: 30px;
     line-height: 40px;
+    margin-bottom: 31px;
+  }
+
+  .main__title-text_highlight {
+    margin-right: -8px;
   }
 
   .main-content__subtitle {
     font-size: 16px;
     line-height: 19px;
+    width: 253px;
+    margin: auto;
+    margin-bottom: 23px;
   }
 
 
