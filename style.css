@@ -284,10 +284,10 @@ body {
     font: 500 30px/35px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  .menu__item_active {
-    display: none;
+  .menu__item:after {
+    display: none
   }
-  
+
   .menu__item:hover {
     opacity: .5;
   }
