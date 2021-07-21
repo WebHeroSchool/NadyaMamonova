@@ -208,6 +208,10 @@ body {
   .main-content__subtitle {
     width: 367px;
   }
+
+  .main-content__button {
+  padding-right: 28px;
+  }
 }
 
 @media (max-width: 1015px) {
