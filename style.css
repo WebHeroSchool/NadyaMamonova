@@ -209,7 +209,7 @@ body {
 
 @media (max-width: 768px) {
   .wrapper {
-    width: 86%;
+    width: 88%;
   }
 
   .header {
@@ -218,6 +218,10 @@ body {
 
   .logo {
     display: none;
+  }
+
+  .logoimg {
+    padding-left: 0px;
   }
 
   #menu__toggle {
