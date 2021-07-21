@@ -312,14 +312,14 @@ body {
     background: #FFFFFF;
   }
 
+  .main-content {
+  padding: 68% 0 0 0;
+  background-size: 88%;
+  }
 
   .main-content__title {
     font-size: 30px;
     line-height: 40px;
-  }
-
-  .main__title-text_highlight {
-    background: linear-gradient(180deg, rgba(255,255,255,1) 18%, #ecf3ff 18%);
   }
 
   .main-content__subtitle {
