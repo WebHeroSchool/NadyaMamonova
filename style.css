@@ -197,26 +197,8 @@ body {
     width: 93%;
   }
 
-  /*
-  .header {
-    margin-left: -114px;
-  }
-
-  .logoimg {
-    padding-left: 102px;
-  }
-  */
-
-  .menu {
-  animation-name: first;
-  }
-
-  .menu__item {
-    font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
-  }
-
   .main-content {
-    background-size: 66%;
+    background-size: 54%;
   }
 
   .main-content__title {
