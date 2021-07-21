@@ -194,8 +194,10 @@ body {
 
 @media (max-width: 1024px) {
   .wrapper {
-    width: 80%;
+    width: 70%;
   }
+
+  /*
   .header {
     margin-left: -114px;
   }
@@ -203,13 +205,9 @@ body {
   .logoimg {
     padding-left: 102px;
   }
-
-  .hamburger-menu {
-    display: none;
-  }
+  */
 
   .menu {
-  margin-right: -126px;
   animation-name: first;
   }
 
@@ -217,39 +215,17 @@ body {
     font: 500 normal 14px/16px 'Roboto', arial, helvetica, sans-serif;
   }
 
-  .main-section {
-    margin-right: -55px;
-    background-size: 514px;
+  .main-content {
+    background-size: 66%;
   }
 
   .main-content__title {
     margin-left: -121px;
     font-size: 50px;
-    margin-top: -84px;
   }
 
   .main-content__subtitle {
-    margin-left: -123px;
     width: 367px;
-    padding-top: 25px;
-  }
-
-  .main__button {
-    margin-left: -125px;
-    font-size: 14px;
-    width: 29%;
-    word-spacing: 3px;
-    height: 50px;
-    display: inline-flex;
-    margin-top: 123px;
-    padding-left: 16px;
-    cursor: pointer;
-    animation-name: move;
-  }
-
-  .image-content {
-    padding-right: 405px;
-    padding-top: 157px;
   }
 }
 
