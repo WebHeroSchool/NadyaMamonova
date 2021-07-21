@@ -281,6 +281,7 @@ body {
     max-width: 100%;
     transition: left .5s ease-out;
   }
+
   .menu__item {
     display: inline-block;
     margin: 0;
@@ -334,6 +335,7 @@ body {
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 31px;
+    padding-left: 6px;
   }
 
   .main__title-text_highlight {
@@ -346,6 +348,8 @@ body {
     width: 253px;
     margin: auto;
     margin-bottom: 24px;
+    padding-left: 6px;
+    width:  63vw;
   }
 
   .main-content__button {
