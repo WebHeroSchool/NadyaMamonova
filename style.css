@@ -214,6 +214,7 @@ body {
 
   .header {
     padding-top: 25px;
+    margin-bottom: 0;
   }
 
   .logo {
