@@ -215,8 +215,8 @@ body {
   .header {
     padding-top: 25px;
     margin-bottom: 0;
-    padding-bottom: 24px;
-  }
+    padding-bottom: 16px;
+}
 
   .logo {
     display: none;
@@ -315,8 +315,9 @@ body {
   }
 
   .main-content {
-  padding: 68% 0 0 0;
-  background-size: 88%;
+    padding: 78% 0 0 0;
+    background: no-repeat center top 9px url(img/mainlmg.svg);
+    background-size: 86%;
   }
 
   .main-content__title {
