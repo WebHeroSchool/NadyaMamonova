@@ -294,35 +294,6 @@ body {
     display: none;
   }
 
-  .menu__item {
-  display: block;
-  padding: 12px 24px;
-  color: #000000;
-  font: bold 40px/45px 'Roboto', sans-serif;
-  text-decoration: none;
-  transition-duration: .25s;
-  position: relative;
-  margin-left: -90px;
-  margin-top: 30px;
-  }
-
-  .menu__item_active::after {
-    display: block;
-    content: '';
-    width: 100%;
-    height: 3px;
-    position: absolute;
-    width: 100%;
-    left: 0;
-  }
-
-  .menu__item:last-child {
-    margin-right: 0;
-  }
-
-  .menu__item:hover {
-    background-color: #CFD8DC;
-  }
 
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
@@ -341,19 +312,10 @@ body {
     background: #FFFFFF;
   }
 
-  .main-section {
-    text-align: center;
-    background-size: 510px;
-    background-position: top center;
-    margin-top: 0px;
-    margin-right: 0px;
-  }
 
   .main-content__title {
-    width: 400px;
-    margin-top: 220px;
-    margin-left: 150px;
-    font-size: 50px;
+    font-size: 30px;
+    line-height: 40px;
   }
 
   .main__title-text_highlight {
@@ -361,29 +323,10 @@ body {
   }
 
   .main-content__subtitle {
-    width: 390px;
-    position: sticky;
-    margin-left: 150px;
-    margin-top: -65px;
-    font-weight: 500;
-    font-size: 25px;
+    font-size: 16px;
+    line-height: 19px;
   }
 
-  .main__button {
-    display: inline-block;
-    font: 20px 'Roboto', arial, helvetica, sans-serif;
-    color: #FFFFFF;
-    background: #0056EC;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: opacity .5s;
-    margin-left: 45px;
-    width: 55%;
-    height: 40%;
-    margin-top: 140px;
-    cursor: pointer;
-    animation-name: move;
-  }
 
   .main__button:hover {
     opacity: 5;
