@@ -110,7 +110,7 @@ body {
     border-radius: 4px;
     transition: opacity .5s;
     transition-duration: 0.4s;
-    animation: animate_motion 5s 0s both 1;
+    animation: animate_motion 5s 0s both 3;
     cursor: pointer;
     animation-name: move;
   }
