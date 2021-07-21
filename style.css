@@ -209,22 +209,15 @@ body {
 
 @media (max-width: 768px) {
   .wrapper {
-    width: 100%;
+    width: 86%;
   }
 
   .header {
-    margin-bottom: 28px;
+    padding-top: 25px;
   }
 
   .logo {
     display: none;
-  }
-
-  .logoimg {
-      height: 70px;
-      background-size: 70px;
-      width: 60px;
-      margin-left: -15px;
   }
 
   #menu__toggle {
