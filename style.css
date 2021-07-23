@@ -97,7 +97,7 @@ body {
 .main-content__subtitle {
   width: 455px;
   font: 400 22px/26px 'Roboto', arial, helvetica, sans-serif;
-  margin-bottom: 35px;
+  margin-bottom: 38px;
 }
 
   .main-content__button {
@@ -105,7 +105,8 @@ body {
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #FFFFFF;
   background: #0056EC;
-  padding: 23px 33px 17px 23px;
+  padding: 18px 31px 17px 23px;
+  margin-left: 2px;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
