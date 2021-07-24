@@ -41,7 +41,7 @@ body {
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .menu__item::after {
@@ -53,10 +53,10 @@ body {
   height: 3px;
   background: #0056ec;
   opacity: 0;
-  transition: opacity .5s, widht .5s;
+  transition: opacity 0.5s, widht 0.5s;
 }
 
-.menu__item:hover:after,
+.menu__item:hover::after,
 .menu__item_active {
   opacity: 1;
   width: 100%;
@@ -90,7 +90,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%,#ecf3ff 15%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ecf3ff 15%);
   margin-right: -15px;
 }
 
@@ -119,22 +119,27 @@ body {
 @keyframes move {
   0%,
     20% {
-        transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
   }
+
   10%,
-    14%,
-      18%,
-        2%,
-          6% {
-            transform: translate3d(-7px, 0, 0);
+  14%,
+  18%,
+  2%,
+  6% {
+      transform: translate3d(-7px, 0, 0);
   }
-  12%, 16%, 4%, 8% {
-  	transform: translate3d(7px, 0, 0);
+
+  12%,
+  16%,
+  4%,
+  8% {
+  	 transform: translate3d(7px, 0, 0);
 	}
 }
 
 .main-content__button:hover {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .image-content {
@@ -147,7 +152,7 @@ body {
 
 @media (max-width: 1580px) {
   .wrapper {
-  width: 95%;
+    width: 95%;
   }
 }
 
@@ -249,9 +254,9 @@ body {
     z-index: 1;
   }
 
-  .menu__btn>span,
-  .menu__btn>span::before,
-  .menu__btn>span::after {
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -283,7 +288,7 @@ body {
     text-align: center;
     background: #fff;
     max-width: 100%;
-    transition: left .5s ease-out;
+    transition: left 0.5s ease-out;
   }
 
   .menu__item {
@@ -315,18 +320,18 @@ body {
     margin-bottom: 3px;
   }
 
-  #menu__toggle:checked~.menu__btn>span {
+  #menu__toggle:checked ~ .menu__btn>span {
     transform: rotate(45deg);
   }
-  #menu__toggle:checked~.menu__btn>span::before {
+  #menu__toggle:checked ~ .menu__btn>span::before {
     top: 0;
     transform: rotate(0);
   }
-  #menu__toggle:checked~.menu__btn>span::after {
+  #menu__toggle:checked ~ .menu__btn>span::after {
     top: 0;
     transform: rotate(90deg);
   }
-  #menu__toggle:checked~.menu {
+  #menu__toggle:checked ~ .menu {
     visibility: visible;
     left: 0;
   }
