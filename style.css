@@ -82,14 +82,14 @@ body {
 }
 
 .main-content__title {
- font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
- margin-top: 0;
- padding-top: 116px;
- margin-bottom: 37px;
+  font: bold 66px/87px 'pt_serifbold', arial, helvetica, sans-serif;
+  margin-top: 0;
+  padding-top: 116px;
+  margin-bottom: 37px;
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
+  background: linear-gradient(180deg,rgba(255,255,255,1)15%,#ecf3ff 15%);
   margin-right: -15px;
 }
 
@@ -99,11 +99,11 @@ body {
   margin-bottom: 38px;
 }
 
-  .main-content__button {
+.main-content__button {
   display: inline-block;
   font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
-  color: #FFFFFF;
-  background: #0056EC;
+  color: #fff;
+  background: #0056ec;
   padding: 18px 31px 17px 23px;
   margin-left: 2px;
   text-decoration: none;
@@ -115,23 +115,23 @@ body {
   animation-name: move;
 }
 
-  @keyframes move {
-  	0%, 20% {
-  		transform: translate3d(0, 0, 0);
-  	}
-  	10%, 14%, 18%, 2%, 6% {
-  		transform: translate3d(-7px, 0, 0);
-  	}
-  	12%, 16%, 4%, 8% {
-  		transform: translate3d(7px, 0, 0);
-  	}
+@keyframes move {
+  0%, 20% {
+  	transform: translate3d(0, 0, 0);
   }
+  10%, 14%, 18%, 2%, 6% {
+  	transform: translate3d(-7px, 0, 0);
+  }
+  12%, 16%, 4%, 8% {
+  	transform: translate3d(7px, 0, 0);
+	}
+}
 
-  .main-content__button:hover {
+.main-content__button:hover {
   opacity: .2;
 }
 
-  .image-content {
+.image-content {
   background: url(img/detail.svg) center no-repeat;
   display: flex;
   margin: auto;
@@ -140,8 +140,8 @@ body {
 }
 
 @media (max-width: 1580px) {
-    .wrapper {
-      width: 95%;
+  .wrapper {
+  width: 95%;
   }
 }
 
@@ -164,8 +164,8 @@ body {
   }
 
   .menu__item_active::after {
-  opacity: 1;
-  width: 100%;
+    opacity: 1;
+    width: 100%;
   }
 
   .main-content {
@@ -204,10 +204,9 @@ body {
   }
 
   .main-content__button {
-  padding-right: 28px;
+    padding-right: 28px;
   }
 }
-
 
 @media (max-width: 768px) {
   .wrapper {
@@ -252,7 +251,7 @@ body {
     width: 100%;
     height: 3px;
     transition: 0.5s;
-    background-color: #0056EC;
+    background-color: #0056ec;
   }
 
   .menu__btn>span::before {
@@ -290,7 +289,7 @@ body {
   }
 
   .menu__item:after {
-    display: none
+    display: none;
   }
 
   .menu__item:hover {
@@ -307,8 +306,8 @@ body {
   }
 
   .menu__item:nth-child(2) {
-        margin-bottom: 3px;
-    }
+    margin-bottom: 3px;
+  }
 
   #menu__toggle:checked~.menu__btn>span {
     transform: rotate(45deg);
@@ -352,7 +351,7 @@ body {
     margin: auto;
     margin-bottom: 24px;
     padding-left: 6px;
-    width:  63vw;
+    width: 63vw;
   }
 
   .main-content__button {
