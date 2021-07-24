@@ -35,7 +35,6 @@ body {
   padding-top: 8px;
 }
 
-
 .menu__item {
   position: relative;
   margin-right: 26px;
@@ -45,14 +44,14 @@ body {
   transition: opacity .5s;
 }
 
-.menu__item:after {
+.menu__item::after {
   position: absolute;
   left: 0;
   display: block;
   content: '';
   width: 0;
   height: 3px;
-  background: #0056EC;
+  background: #0056ec;
   opacity: 0;
   transition: opacity .5s, widht .5s;
 }
