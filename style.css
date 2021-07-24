@@ -56,7 +56,8 @@ body {
   transition: opacity .5s, widht .5s;
 }
 
-.menu__item:hover:after, .menu__item_active {
+.menu__item:hover:after,
+.menu__item_active {
   opacity: 1;
   width: 100%;
 }
@@ -89,7 +90,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,1)15%,#ecf3ff 15%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%,#ecf3ff 15%);
   margin-right: -15px;
 }
 
@@ -116,11 +117,16 @@ body {
 }
 
 @keyframes move {
-  0%, 20% {
-  	transform: translate3d(0, 0, 0);
+  0%,
+    20% {
+        transform: translate3d(0, 0, 0);
   }
-  10%, 14%, 18%, 2%, 6% {
-  	transform: translate3d(-7px, 0, 0);
+  10%,
+    14%,
+      18%,
+        2%,
+          6% {
+            transform: translate3d(-7px, 0, 0);
   }
   12%, 16%, 4%, 8% {
   	transform: translate3d(7px, 0, 0);
@@ -302,7 +308,7 @@ body {
     max-width: 100%;
     height: 3px;
     position: absolute;
-    background: #0056EC;
+    background: #0056ec;
   }
 
   .menu__item:nth-child(2) {
