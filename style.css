@@ -179,6 +179,10 @@ body {
     width: 100%;
   }
 
+  .menu__item:last-child {
+    margin-right: 10px;
+  }
+
   .main-content {
     padding-left: 7px;
     background: no-repeat right 9px top -3px url(img/mainlmg.svg);
