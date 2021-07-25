@@ -334,6 +334,7 @@ body {
     top: 0;
     transform: rotate(90deg);
   }
+
   #menu__toggle:checked ~
   .menu {
     visibility: visible;
@@ -366,7 +367,7 @@ body {
     margin: auto;
     margin-bottom: 24px;
     padding-left: 6px;
-    width: 63vw;
+    width: 63vw ;
   }
 
   .main-content__button {
