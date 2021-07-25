@@ -135,7 +135,7 @@ body {
   4%,
   8% {
     transform: translate3d(7px, 0, 0);
-}
+  }
 }
 
 .main-content__button:hover {
