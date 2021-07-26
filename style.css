@@ -328,7 +328,7 @@ body {
     transform: rotate(45deg);
   }
 
-  #menu__toggle:checked~
+  #menu__toggle:checked ~ 
   .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
