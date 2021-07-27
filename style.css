@@ -338,8 +338,7 @@ body {
     transform: rotate(90deg);
   }
 
-  #menu__toggle:checked ~
-  .menu {
+  #menu__toggle:checked ~ .menu {
     visibility: visible;
     left: 0;
   }
